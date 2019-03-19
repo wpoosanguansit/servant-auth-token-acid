@@ -1,0 +1,1964 @@
+
+==================== FINAL INTERFACE ====================
+2019-03-19 00:52:49.833370479 UTC
+
+interface servant-auth-token-acid-0.5.4.0-ISWqDrrXOr1LDqeVjYMVhJ:Servant.Server.Auth.Token.Acid [family instance module] 8063
+  interface hash: 33df0285ce076058904708f348c00cef
+  ABI hash: 3881723ab626c3f103b8c86108522ec5
+  export-list hash: 8a60cc1b6dfc444594074cb97fd1bd57
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 55c87a1bfaca6773bc1780a3a4380a7a
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Servant.Server.Auth.Token.Acid.deriveAcidHasStorage
+  Servant.Server.Auth.Token.Acid.runAcidBackendT
+  Servant.Server.Auth.Token.Acid.AcidBackendT
+module dependencies:
+package dependencies: HUnit-1.6.0.0 QuickCheck-2.12.6.1
+                      StateVar-1.1.1.1 acid-state-0.14.3 adjunctions-4.4 aeson-1.4.2.0
+                      aeson-injector-1.1.1.0 aeson-pretty-0.8.7 ansi-terminal-0.8.2
+                      array-0.5.3.0 attoparsec-0.13.2.2 attoparsec-iso8601-1.0.1.0
+                      base-4.12.0.0 base-compat-0.10.5 base-compat-batteries-0.10.5
+                      base-orphans-0.8 base64-bytestring-1.0.0.2 basement-0.0.10
+                      bifunctors-5.5.3 binary-0.8.6.0 byteable-0.1.1 bytestring-0.10.8.2
+                      call-stack-0.1.0 case-insensitive-1.2.0.11 cereal-0.5.8.0
+                      clock-0.7.2 colour-2.3.4 comonad-5.0.4 containers-0.6.0.1
+                      contravariant-1.5 control-monad-omega-0.3.1 cookie-0.4.4
+                      cryptohash-0.11.9 cryptonite-0.25 data-default-class-0.1.2.0
+                      deepseq-1.4.4.0 directory-1.3.3.0 distributive-0.6 dlist-0.8.0.5
+                      entropy-0.4.1.4 erf-2.0.0.0 exceptions-0.10.0
+                      extensible-exceptions-0.1.1.4 filepath-1.4.2.1 free-5.1
+                      generics-sop-0.4.0.1 ghc-boot-th-8.6.3 ghc-prim-0.5.3
+                      hashable-1.2.7.0 hspec-2.6.1 hspec-core-2.6.1
+                      hspec-expectations-0.8.2 http-api-data-0.4 http-media-0.7.1.3
+                      http-types-0.12.2 insert-ordered-containers-0.2.1.0
+                      integer-gmp-1.0.2.0 integer-logarithms-1.0.2.2 kan-extensions-5.2
+                      lens-4.17 memory-0.14.18 mmorph-1.1.2 monad-control-1.0.2.3
+                      mtl-2.2.2 network-2.8.0.0 network-uri-2.6.1.0 old-locale-1.0.0.7
+                      old-time-1.1.0.3 parsec-3.1.13.0 pretty-1.1.3.6 primitive-0.6.4.0
+                      profunctors-5.3 pwstore-fast-2.4.4 quickcheck-io-0.2.0 random-1.1
+                      raw-strings-qq-1.1 reflection-2.1.4 resourcet-1.2.2
+                      safecopy-0.9.4.3 scientific-0.3.6.2 semigroupoids-5.3.2
+                      servant-0.15 servant-auth-token-0.5.6.0
+                      servant-auth-token-api-0.5.3.0 servant-docs-0.11.3
+                      servant-server-0.16 servant-swagger-1.1.7 setenv-0.1.1.3
+                      singleton-bool-0.1.4 sop-core-0.4.0.0 stm-2.5.0.0
+                      string-conversions-0.4.0.1 swagger2-2.3.1.1 tagged-0.8.6
+                      template-haskell-2.14.0.0 text-1.2.3.1 tf-random-0.5
+                      th-abstraction-0.2.10.0 time-1.8.0.2 time-locale-compat-0.1.1.5
+                      transformers-0.5.5.0 transformers-base-0.4.5.2
+                      transformers-compat-0.6.2 unix-2.7.2.2 unliftio-core-0.1.2.0
+                      unordered-containers-0.2.9.0 utf8-string-1.0.1.1 uuid-1.3.13
+                      uuid-types-1.0.3 vault-0.3.1.2 vector-0.12.0.2 wai-3.2.2
+                      word8-0.1.3
+orphans: safecopy-0.9.4.3:Data.SafeCopy.Instances
+         time-1.8.0.2:Data.Time.Clock.TAI
+         pwstore-fast-2.4.4:Crypto.PasswordStore
+         basement-0.0.10:Basement.UArray.Base basement-0.0.10:Basement.Block
+         servant-auth-token-api-0.5.3.0:Servant.API.Auth.Token
+         colour-2.3.4:Data.Colour quickcheck-io-0.2.0:Test.QuickCheck.IO
+         servant-swagger-1.1.7:Servant.Swagger.Internal.Orphans
+         servant-auth-token-api-0.5.3.0:Servant.API.Auth.Token.Pagination
+         swagger2-2.3.1.1:Data.Swagger.Lens network-2.8.0.0:Network.Socket
+         generics-sop-0.4.0.1:Generics.SOP.Instances
+         reflection-2.1.4:Data.Reflection stm-2.5.0.0:Control.Monad.STM
+         vector-0.12.0.2:Data.Vector.Unboxed
+         vector-0.12.0.2:Data.Vector.Fusion.Bundle
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         transformers-0.5.5.0:Control.Monad.Trans.Error
+         attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian text-1.2.3.1:Data.Text
+         binary-0.8.6.0:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.1:Data.Text.Show base-4.12.0.0:GHC.Float
+         base-4.12.0.0:GHC.Base
+family instance modules: adjunctions-4.4:Data.Functor.Rep
+                         aeson-1.4.2.0:Data.Aeson.Types.Internal
+                         aeson-injector-1.1.1.0:Data.Aeson.Unit
+                         aeson-injector-1.1.1.0:Data.Aeson.WithField
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.12.0.0:Control.Applicative base-4.12.0.0:Data.Complex
+                         base-4.12.0.0:Data.Functor.Compose base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity
+                         base-4.12.0.0:Data.Functor.Product base-4.12.0.0:Data.Functor.Sum
+                         base-4.12.0.0:Data.Monoid base-4.12.0.0:Data.Semigroup
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:Data.Version
+                         base-4.12.0.0:Data.Void base-4.12.0.0:GHC.Exts
+                         base-4.12.0.0:GHC.Generics base-4.12.0.0:GHC.IO.Exception
+                         basement-0.0.10:Basement.Block.Base
+                         basement-0.0.10:Basement.Bounded basement-0.0.10:Basement.Monad
+                         basement-0.0.10:Basement.MutableBuilder
+                         basement-0.0.10:Basement.Nat basement-0.0.10:Basement.NonEmpty
+                         basement-0.0.10:Basement.Numerical.Subtractive
+                         basement-0.0.10:Basement.PrimType basement-0.0.10:Basement.String
+                         basement-0.0.10:Basement.String.Encoding.ASCII7
+                         basement-0.0.10:Basement.String.Encoding.ISO_8859_1
+                         basement-0.0.10:Basement.String.Encoding.UTF16
+                         basement-0.0.10:Basement.String.Encoding.UTF32
+                         basement-0.0.10:Basement.Types.OffsetSize
+                         basement-0.0.10:Basement.UArray.Base
+                         basement-0.0.10:Basement.UTF8.Base
+                         bifunctors-5.5.3:Data.Bifunctor.Biff
+                         bifunctors-5.5.3:Data.Bifunctor.Clown
+                         bifunctors-5.5.3:Data.Bifunctor.Fix
+                         bifunctors-5.5.3:Data.Bifunctor.Flip
+                         bifunctors-5.5.3:Data.Bifunctor.Join
+                         bifunctors-5.5.3:Data.Bifunctor.Joker
+                         bifunctors-5.5.3:Data.Bifunctor.Product
+                         bifunctors-5.5.3:Data.Bifunctor.Sum
+                         bifunctors-5.5.3:Data.Bifunctor.Tannen
+                         bifunctors-5.5.3:Data.Bifunctor.Wrapped clock-0.7.2:System.Clock
+                         containers-0.6.0.1:Data.Graph
+                         containers-0.6.0.1:Data.IntMap.Internal
+                         containers-0.6.0.1:Data.IntSet.Internal
+                         containers-0.6.0.1:Data.Map.Internal
+                         containers-0.6.0.1:Data.Sequence.Internal
+                         containers-0.6.0.1:Data.Set.Internal containers-0.6.0.1:Data.Tree
+                         cryptonite-0.25:Crypto.Hash.Blake2
+                         cryptonite-0.25:Crypto.Hash.Blake2b
+                         cryptonite-0.25:Crypto.Hash.Blake2bp
+                         cryptonite-0.25:Crypto.Hash.Blake2s
+                         cryptonite-0.25:Crypto.Hash.Blake2sp
+                         cryptonite-0.25:Crypto.Hash.Keccak cryptonite-0.25:Crypto.Hash.MD2
+                         cryptonite-0.25:Crypto.Hash.MD4 cryptonite-0.25:Crypto.Hash.MD5
+                         cryptonite-0.25:Crypto.Hash.RIPEMD160
+                         cryptonite-0.25:Crypto.Hash.SHA1 cryptonite-0.25:Crypto.Hash.SHA224
+                         cryptonite-0.25:Crypto.Hash.SHA256 cryptonite-0.25:Crypto.Hash.SHA3
+                         cryptonite-0.25:Crypto.Hash.SHA384
+                         cryptonite-0.25:Crypto.Hash.SHA512
+                         cryptonite-0.25:Crypto.Hash.SHA512t
+                         cryptonite-0.25:Crypto.Hash.SHAKE
+                         cryptonite-0.25:Crypto.Hash.Skein256
+                         cryptonite-0.25:Crypto.Hash.Skein512
+                         cryptonite-0.25:Crypto.Hash.Tiger
+                         cryptonite-0.25:Crypto.Hash.Whirlpool dlist-0.8.0.5:Data.DList
+                         free-5.1:Control.Comonad.Cofree
+                         free-5.1:Control.Comonad.Trans.Cofree free-5.1:Control.Monad.Free
+                         free-5.1:Control.Monad.Trans.Free
+                         generics-sop-0.4.0.1:Generics.SOP.GGP
+                         generics-sop-0.4.0.1:Generics.SOP.Instances
+                         ghc-boot-th-8.6.3:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.6.3:GHC.LanguageExtensions.Type
+                         hspec-core-2.6.1:Test.Hspec.Core.Example
+                         http-api-data-0.4:Web.Internal.FormUrlEncoded
+                         insert-ordered-containers-0.2.1.0:Data.HashMap.Strict.InsOrd
+                         kan-extensions-5.2:Data.Functor.Day
+                         kan-extensions-5.2:Data.Functor.Yoneda lens-4.17:Control.Lens.At
+                         lens-4.17:Control.Lens.Internal.Indexed
+                         lens-4.17:Control.Lens.Reified lens-4.17:Control.Lens.Tuple
+                         lens-4.17:Control.Lens.Wrapped lens-4.17:Control.Lens.Zoom
+                         monad-control-1.0.2.3:Control.Monad.Trans.Control
+                         network-uri-2.6.1.0:Network.URI
+                         pretty-1.1.3.6:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.6:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.4.0:Control.Monad.Primitive
+                         primitive-0.6.4.0:Data.Primitive.Array
+                         primitive-0.6.4.0:Data.Primitive.ByteArray
+                         primitive-0.6.4.0:Data.Primitive.PrimArray
+                         primitive-0.6.4.0:Data.Primitive.SmallArray
+                         primitive-0.6.4.0:Data.Primitive.UnliftedArray
+                         profunctors-5.3:Data.Profunctor.Composition
+                         profunctors-5.3:Data.Profunctor.Rep
+                         resourcet-1.2.2:Control.Monad.Trans.Resource.Internal
+                         safecopy-0.9.4.3:Data.SafeCopy.Instances
+                         servant-0.15:Servant.API.ContentTypes
+                         servant-0.15:Servant.API.Generic servant-0.15:Servant.API.IsSecure
+                         servant-0.15:Servant.API.Stream servant-0.15:Servant.API.Verbs
+                         servant-0.15:Servant.Links
+                         servant-auth-token-0.5.6.0:Servant.Server.Auth.Token.Model
+                         servant-auth-token-api-0.5.3.0:Servant.API.Auth.Token
+                         servant-auth-token-api-0.5.3.0:Servant.API.Auth.Token.Pagination
+                         servant-docs-0.11.3:Servant.Docs.Internal
+                         servant-server-0.16:Servant.Server.Internal
+                         servant-server-0.16:Servant.Server.Internal.BasicAuth
+                         servant-server-0.16:Servant.Server.Internal.DelayedIO
+                         servant-server-0.16:Servant.Server.Internal.Handler
+                         servant-server-0.16:Servant.Server.Internal.RouteResult
+                         sop-core-0.4.0.0:Data.SOP.BasicFunctors
+                         sop-core-0.4.0.0:Data.SOP.NP sop-core-0.4.0.0:Data.SOP.NS
+                         swagger2-2.3.1.1:Data.Swagger.Internal
+                         swagger2-2.3.1.1:Data.Swagger.Internal.TypeShape
+                         swagger2-2.3.1.1:Data.Swagger.Lens tagged-0.8.6:Data.Tagged
+                         template-haskell-2.14.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         th-abstraction-0.2.10.0:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.2:Data.Vector vector-0.12.0.2:Data.Vector.Primitive
+                         vector-0.12.0.2:Data.Vector.Storable
+                         vector-0.12.0.2:Data.Vector.Unboxed
+                         vector-0.12.0.2:Data.Vector.Unboxed.Base
+import  -/  acid-state-0.14.3:Data.Acid 04fe88d5b440fcb1d8fbf9b9189d886c
+import  -/  acid-state-0.14.3:Data.Acid.Abstract 31f90438d1362eaef9a10e4a669bb7f9
+import  -/  acid-state-0.14.3:Data.Acid.Common 175106d3ce2274e9e228f77c075b0129
+import  -/  acid-state-0.14.3:Data.Acid.Core 3ecd5284b81bf9637231bd13bb19b17a
+import  -/  base-4.12.0.0:Control.Monad.IO.Class e8f65a5571f64fe686cca3ac75a1aa0e
+import  -/  base-4.12.0.0:Data.Either 946a3435d06773e1dbcad1ba5dc18a2c
+import  -/  base-4.12.0.0:Data.Tuple c92a835d04b6c075a7031d4e28e53c71
+import  -/  base-4.12.0.0:Data.Type.Equality 739ba6c19327c189979e1224d7ee85c5
+import  -/  base-4.12.0.0:GHC.Base cc906f98291a1b830546e99a96674547
+import  -/  base-4.12.0.0:Prelude 5c01365ec01f83bd405ac01cbb9a8d76
+import  -/  ghc-prim-0.5.3:GHC.Types 57064c9f957b09bc2e360061ad5cae0b
+import  -/  monad-control-1.0.2.3:Control.Monad.Trans.Control 462965bc2497e34204feeece21de927a
+import  -/  mtl-2.2.2:Control.Monad.Error.Class 396bb83814f3ba40535fffb311f79b73
+import  -/  mtl-2.2.2:Control.Monad.Except 50e515fe4eac4821a9bcec9a647f5aa7
+import  -/  mtl-2.2.2:Control.Monad.Reader d851fb94eb94072f491282515418f996
+import  -/  mtl-2.2.2:Control.Monad.Reader.Class bfd53ec9164fa16880d07775c83c6ec0
+import  -/  servant-auth-token-0.5.6.0:Servant.Server.Auth.Token.Config add54efc58b0ac5c04d4b383b7094b6f
+import  -/  servant-auth-token-0.5.6.0:Servant.Server.Auth.Token.Model 54c5a3dceda6017ae203046efa286689
+import  -/  servant-server-0.16:Servant.Server 5669a6a4ea4fddf0e285583deab11925
+import  -/  servant-server-0.16:Servant.Server.Internal.ServerError c859a88736893796701eafa2d76c7cbc
+import  -/  template-haskell-2.14.0.0:Language.Haskell.TH 9151382215a87b8935f3b7cb01528986
+import  -/  template-haskell-2.14.0.0:Language.Haskell.TH.Lib.Internal c2e089e5b3437b7cd6f5c7a52948fb31
+import  -/  template-haskell-2.14.0.0:Language.Haskell.TH.Syntax e087b2ccca9bd517418217555253e8e9
+import  -/  transformers-0.5.5.0:Control.Monad.Trans.Except 492e1fc9e7bdded285216f81f05ba982
+import  -/  transformers-0.5.5.0:Control.Monad.Trans.Reader 3d5c6b0df34d74144ad9d24efee0de98
+import  -/  transformers-base-0.4.5.2:Control.Monad.Base 0b8dceb2d4086eae4bbc15b3fbc2dcb3
+73959b31a39cf220308becb36dcf4a1f
+  $fApplicativeAcidBackendT ::
+    GHC.Base.Monad m =>
+    GHC.Base.Applicative
+      (Servant.Server.Auth.Token.Acid.AcidBackendT st m)
+  DFunId
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <L,U(U(U(C(C(U)),A),A,A,A,A,A),C(C1(U)),A,C(U),A)>m,
+     Inline: CONLIKE,
+     Unfolding: DFun: @ st @ m :: * -> * (v :: GHC.Base.Monad m).
+                  @ (Servant.Server.Auth.Token.Acid.AcidBackendT st m)
+                  (Servant.Server.Auth.Token.Acid.$fApplicativeAcidBackendT_$cp1Applicative
+                     @ st
+                     @ m
+                     v)
+                  (Servant.Server.Auth.Token.Acid.$fApplicativeAcidBackendT5
+                     @ st
+                     @ m
+                     v)
+                    `cast`
+                  (forall (a :: <*>_N).
+                   <a>_R
+                   ->_R Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                 <st>_N <m>_R) <a>_N)
+                  (Servant.Server.Auth.Token.Acid.$fApplicativeAcidBackendT4
+                     @ st
+                     @ m
+                     v)
+                    `cast`
+                  (forall (a :: <*>_N) (b :: <*>_N).
+                   Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                            <st>_N <m>_R) <a -> b>_N
+                   ->_R Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                 <st>_N <m>_R) <a>_N
+                   ->_R Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                 <st>_N <m>_R) <b>_N)
+                  (Servant.Server.Auth.Token.Acid.$fApplicativeAcidBackendT3
+                     @ st
+                     @ m
+                     v)
+                    `cast`
+                  (forall (a :: <*>_N) (b :: <*>_N) (c :: <*>_N).
+                   <a -> b -> c>_R
+                   ->_R Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                 <st>_N <m>_R) <a>_N
+                   ->_R Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                 <st>_N <m>_R) <b>_N
+                   ->_R Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                 <st>_N <m>_R) <c>_N)
+                  (Servant.Server.Auth.Token.Acid.$fApplicativeAcidBackendT2
+                     @ st
+                     @ m
+                     v)
+                    `cast`
+                  (forall (a :: <*>_N) (b :: <*>_N).
+                   Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                            <st>_N <m>_R) <a>_N
+                   ->_R Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                 <st>_N <m>_R) <b>_N
+                   ->_R Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                 <st>_N <m>_R) <b>_N)
+                  (Servant.Server.Auth.Token.Acid.$fApplicativeAcidBackendT1
+                     @ st
+                     @ m
+                     v)
+                    `cast`
+                  (forall (a :: <*>_N) (b :: <*>_N).
+                   Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                            <st>_N <m>_R) <a>_N
+                   ->_R Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                 <st>_N <m>_R) <b>_N
+                   ->_R Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                 <st>_N <m>_R) <a>_N) -}
+0655c7ff17e27b0dacc8c2481ff3a3cc
+  $fApplicativeAcidBackendT1 ::
+    GHC.Base.Monad m =>
+    Control.Monad.Trans.Reader.ReaderT
+      (Servant.Server.Auth.Token.Config.AuthConfig,
+       Data.Acid.Abstract.AcidState st)
+      (Control.Monad.Trans.Except.ExceptT
+         Servant.Server.Internal.ServerError.ServerError m)
+      a
+    -> Control.Monad.Trans.Reader.ReaderT
+         (Servant.Server.Auth.Token.Config.AuthConfig,
+          Data.Acid.Abstract.AcidState st)
+         (Control.Monad.Trans.Except.ExceptT
+            Servant.Server.Internal.ServerError.ServerError m)
+         b
+    -> Control.Monad.Trans.Reader.ReaderT
+         (Servant.Server.Auth.Token.Config.AuthConfig,
+          Data.Acid.Abstract.AcidState st)
+         (Control.Monad.Trans.Except.ExceptT
+            Servant.Server.Internal.ServerError.ServerError m)
+         a
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <L,U(1*U(1*U(C(C(U)),A),A,A,A,A,A),C(C1(U)),A,C(U),A)>,
+     Unfolding: (\ @ st
+                   @ m :: * -> *
+                   ($dMonad :: GHC.Base.Monad m)
+                   @ a
+                   @ b ->
+                 Control.Monad.Trans.Reader.$fApplicativeReaderT_$c<*
+                   @ (Control.Monad.Trans.Except.ExceptT
+                        Servant.Server.Internal.ServerError.ServerError m)
+                   @ (Servant.Server.Auth.Token.Config.AuthConfig,
+                      Data.Acid.Abstract.AcidState st)
+                   (Control.Monad.Trans.Except.$fApplicativeExceptT
+                      @ m
+                      @ Servant.Server.Internal.ServerError.ServerError
+                      (GHC.Base.$p1Applicative @ m (GHC.Base.$p1Monad @ m $dMonad))
+                      $dMonad)
+                   @ a
+                   @ b) -}
+0bf65c76d8258c7f2c8b68987e9546bf
+  $fApplicativeAcidBackendT2 ::
+    GHC.Base.Monad m =>
+    Control.Monad.Trans.Reader.ReaderT
+      (Servant.Server.Auth.Token.Config.AuthConfig,
+       Data.Acid.Abstract.AcidState st)
+      (Control.Monad.Trans.Except.ExceptT
+         Servant.Server.Internal.ServerError.ServerError m)
+      a
+    -> Control.Monad.Trans.Reader.ReaderT
+         (Servant.Server.Auth.Token.Config.AuthConfig,
+          Data.Acid.Abstract.AcidState st)
+         (Control.Monad.Trans.Except.ExceptT
+            Servant.Server.Internal.ServerError.ServerError m)
+         b
+    -> Control.Monad.Trans.Reader.ReaderT
+         (Servant.Server.Auth.Token.Config.AuthConfig,
+          Data.Acid.Abstract.AcidState st)
+         (Control.Monad.Trans.Except.ExceptT
+            Servant.Server.Internal.ServerError.ServerError m)
+         b
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <L,U(1*U(1*U(C(C(U)),A),A,A,A,A,A),C(C1(U)),A,C(U),A)>,
+     Unfolding: (\ @ st
+                   @ m :: * -> *
+                   ($dMonad :: GHC.Base.Monad m)
+                   @ a
+                   @ b ->
+                 Control.Monad.Trans.Reader.$fApplicativeReaderT_$c*>
+                   @ (Control.Monad.Trans.Except.ExceptT
+                        Servant.Server.Internal.ServerError.ServerError m)
+                   @ (Servant.Server.Auth.Token.Config.AuthConfig,
+                      Data.Acid.Abstract.AcidState st)
+                   (Control.Monad.Trans.Except.$fApplicativeExceptT
+                      @ m
+                      @ Servant.Server.Internal.ServerError.ServerError
+                      (GHC.Base.$p1Applicative @ m (GHC.Base.$p1Monad @ m $dMonad))
+                      $dMonad)
+                   @ a
+                   @ b) -}
+9bc1ba3444f467713e8eb4c38f0f9e38
+  $fApplicativeAcidBackendT3 ::
+    GHC.Base.Monad m =>
+    (a -> b -> c)
+    -> Control.Monad.Trans.Reader.ReaderT
+         (Servant.Server.Auth.Token.Config.AuthConfig,
+          Data.Acid.Abstract.AcidState st)
+         (Control.Monad.Trans.Except.ExceptT
+            Servant.Server.Internal.ServerError.ServerError m)
+         a
+    -> Control.Monad.Trans.Reader.ReaderT
+         (Servant.Server.Auth.Token.Config.AuthConfig,
+          Data.Acid.Abstract.AcidState st)
+         (Control.Monad.Trans.Except.ExceptT
+            Servant.Server.Internal.ServerError.ServerError m)
+         b
+    -> Control.Monad.Trans.Reader.ReaderT
+         (Servant.Server.Auth.Token.Config.AuthConfig,
+          Data.Acid.Abstract.AcidState st)
+         (Control.Monad.Trans.Except.ExceptT
+            Servant.Server.Internal.ServerError.ServerError m)
+         c
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <L,U(1*U(1*U(C(C(U)),A),A,A,A,A,A),C(C1(U)),A,C(U),A)>,
+     Unfolding: (\ @ st
+                   @ m :: * -> *
+                   ($dMonad :: GHC.Base.Monad m)
+                   @ a
+                   @ b
+                   @ c ->
+                 Control.Monad.Trans.Reader.$fApplicativeReaderT_$cliftA2
+                   @ (Control.Monad.Trans.Except.ExceptT
+                        Servant.Server.Internal.ServerError.ServerError m)
+                   @ (Servant.Server.Auth.Token.Config.AuthConfig,
+                      Data.Acid.Abstract.AcidState st)
+                   (Control.Monad.Trans.Except.$fApplicativeExceptT
+                      @ m
+                      @ Servant.Server.Internal.ServerError.ServerError
+                      (GHC.Base.$p1Applicative @ m (GHC.Base.$p1Monad @ m $dMonad))
+                      $dMonad)
+                   @ a
+                   @ b
+                   @ c) -}
+6757891fa873bddbe286faf4f58ce708
+  $fApplicativeAcidBackendT4 ::
+    GHC.Base.Monad m =>
+    Control.Monad.Trans.Reader.ReaderT
+      (Servant.Server.Auth.Token.Config.AuthConfig,
+       Data.Acid.Abstract.AcidState st)
+      (Control.Monad.Trans.Except.ExceptT
+         Servant.Server.Internal.ServerError.ServerError m)
+      (a -> b)
+    -> Control.Monad.Trans.Reader.ReaderT
+         (Servant.Server.Auth.Token.Config.AuthConfig,
+          Data.Acid.Abstract.AcidState st)
+         (Control.Monad.Trans.Except.ExceptT
+            Servant.Server.Internal.ServerError.ServerError m)
+         a
+    -> Control.Monad.Trans.Reader.ReaderT
+         (Servant.Server.Auth.Token.Config.AuthConfig,
+          Data.Acid.Abstract.AcidState st)
+         (Control.Monad.Trans.Except.ExceptT
+            Servant.Server.Internal.ServerError.ServerError m)
+         b
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <L,U(1*U(1*U(C(C(U)),A),A,A,A,A,A),C(C1(U)),A,C(U),A)>,
+     Unfolding: (\ @ st
+                   @ m :: * -> *
+                   ($dMonad :: GHC.Base.Monad m)
+                   @ a
+                   @ b ->
+                 Control.Monad.Trans.Reader.$fApplicativeReaderT_$c<*>
+                   @ (Control.Monad.Trans.Except.ExceptT
+                        Servant.Server.Internal.ServerError.ServerError m)
+                   @ (Servant.Server.Auth.Token.Config.AuthConfig,
+                      Data.Acid.Abstract.AcidState st)
+                   (Control.Monad.Trans.Except.$fApplicativeExceptT
+                      @ m
+                      @ Servant.Server.Internal.ServerError.ServerError
+                      (GHC.Base.$p1Applicative @ m (GHC.Base.$p1Monad @ m $dMonad))
+                      $dMonad)
+                   @ a
+                   @ b) -}
+6697840a1d7050b30d6b0efe0526ff1c
+  $fApplicativeAcidBackendT5 ::
+    GHC.Base.Monad m =>
+    a
+    -> Control.Monad.Trans.Reader.ReaderT
+         (Servant.Server.Auth.Token.Config.AuthConfig,
+          Data.Acid.Abstract.AcidState st)
+         (Control.Monad.Trans.Except.ExceptT
+            Servant.Server.Internal.ServerError.ServerError m)
+         a
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <L,1*U(A,A,A,1*C1(U),A)><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ st
+                   @ m :: * -> *
+                   ($dMonad :: GHC.Base.Monad m)
+                   @ a
+                   (x5 :: a) ->
+                 let {
+                   m1 :: m (Data.Either.Either
+                              Servant.Server.Internal.ServerError.ServerError a)
+                   = GHC.Base.return
+                       @ m
+                       $dMonad
+                       @ (Data.Either.Either
+                            Servant.Server.Internal.ServerError.ServerError a)
+                       (Data.Either.Right
+                          @ Servant.Server.Internal.ServerError.ServerError
+                          @ a
+                          x5)
+                 } in
+                 (\ (ds :: (Servant.Server.Auth.Token.Config.AuthConfig,
+                            Data.Acid.Abstract.AcidState st)) ->
+                  m1)
+                   `cast`
+                 ((<(Servant.Server.Auth.Token.Config.AuthConfig,
+                     Data.Acid.Abstract.AcidState st)>_R
+                   ->_R Sym (Control.Monad.Trans.Except.N:ExceptT[0]
+                                 <Servant.Server.Internal.ServerError.ServerError>_N
+                                 <m>_R
+                                 <a>_N)) ; Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                                    <*>_N
+                                                    <(Servant.Server.Auth.Token.Config.AuthConfig,
+                                                      Data.Acid.Abstract.AcidState st)>_R
+                                                    <Control.Monad.Trans.Except.ExceptT
+                                                       Servant.Server.Internal.ServerError.ServerError
+                                                       m>_R
+                                                    <a>_N))) -}
+73959b31a39cf220308becb36dcf4a1f
+  $fApplicativeAcidBackendT_$cp1Applicative ::
+    GHC.Base.Monad m =>
+    GHC.Base.Functor (Servant.Server.Auth.Token.Acid.AcidBackendT st m)
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <L,1*U(1*U(1*U(C(C(U)),A),A,A,A,A,A),A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ st @ m :: * -> * ($dMonad :: GHC.Base.Monad m) ->
+                 Servant.Server.Auth.Token.Acid.$fFunctorAcidBackendT
+                   @ st
+                   @ m
+                   (GHC.Base.$p1Applicative @ m (GHC.Base.$p1Monad @ m $dMonad))) -}
+73959b31a39cf220308becb36dcf4a1f
+  $fFunctorAcidBackendT ::
+    GHC.Base.Functor m =>
+    GHC.Base.Functor (Servant.Server.Auth.Token.Acid.AcidBackendT st m)
+  DFunId
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U(C(C(U)),A)>m,
+     Inline: CONLIKE,
+     Unfolding: DFun: @ st @ m :: * -> * (v :: GHC.Base.Functor m).
+                  @ (Servant.Server.Auth.Token.Acid.AcidBackendT st m)
+                  (Servant.Server.Auth.Token.Acid.$fFunctorAcidBackendT2 @ st @ m v)
+                    `cast`
+                  (forall (a :: <*>_N) (b :: <*>_N).
+                   <a -> b>_R
+                   ->_R Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                 <st>_N <m>_R) <a>_N
+                   ->_R Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                 <st>_N <m>_R) <b>_N)
+                  (Servant.Server.Auth.Token.Acid.$fFunctorAcidBackendT1 @ st @ m v)
+                    `cast`
+                  (forall (a :: <*>_N) (b :: <*>_N).
+                   <a>_R
+                   ->_R Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                 <st>_N <m>_R) <b>_N
+                   ->_R Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                 <st>_N <m>_R) <a>_N) -}
+5818c275c1fdaaeb450f1906bcc10200
+  $fFunctorAcidBackendT1 ::
+    GHC.Base.Functor m =>
+    a
+    -> Control.Monad.Trans.Reader.ReaderT
+         (Servant.Server.Auth.Token.Config.AuthConfig,
+          Data.Acid.Abstract.AcidState st)
+         (Control.Monad.Trans.Except.ExceptT
+            Servant.Server.Internal.ServerError.ServerError m)
+         b
+    -> Control.Monad.Trans.Reader.ReaderT
+         (Servant.Server.Auth.Token.Config.AuthConfig,
+          Data.Acid.Abstract.AcidState st)
+         (Control.Monad.Trans.Except.ExceptT
+            Servant.Server.Internal.ServerError.ServerError m)
+         a
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U(C(C(U)),A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ st @ m :: * -> * ($dFunctor :: GHC.Base.Functor m) @ a @ b ->
+                 Control.Monad.Trans.Reader.$fFunctorReaderT_$c<$
+                   @ (Control.Monad.Trans.Except.ExceptT
+                        Servant.Server.Internal.ServerError.ServerError m)
+                   @ (Servant.Server.Auth.Token.Config.AuthConfig,
+                      Data.Acid.Abstract.AcidState st)
+                   (Control.Monad.Trans.Except.$fFunctorExceptT
+                      @ m
+                      @ Servant.Server.Internal.ServerError.ServerError
+                      $dFunctor)
+                   @ a
+                   @ b) -}
+45fe13ee6aa4ba4d05d4dcfbadf1531e
+  $fFunctorAcidBackendT2 ::
+    GHC.Base.Functor m =>
+    (a -> b)
+    -> Control.Monad.Trans.Reader.ReaderT
+         (Servant.Server.Auth.Token.Config.AuthConfig,
+          Data.Acid.Abstract.AcidState st)
+         (Control.Monad.Trans.Except.ExceptT
+            Servant.Server.Internal.ServerError.ServerError m)
+         a
+    -> Control.Monad.Trans.Reader.ReaderT
+         (Servant.Server.Auth.Token.Config.AuthConfig,
+          Data.Acid.Abstract.AcidState st)
+         (Control.Monad.Trans.Except.ExceptT
+            Servant.Server.Internal.ServerError.ServerError m)
+         b
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U(C(C(U)),A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ st @ m :: * -> * ($dFunctor :: GHC.Base.Functor m) @ a @ b ->
+                 Control.Monad.Trans.Reader.$fFunctorReaderT_$cfmap
+                   @ (Control.Monad.Trans.Except.ExceptT
+                        Servant.Server.Internal.ServerError.ServerError m)
+                   @ (Servant.Server.Auth.Token.Config.AuthConfig,
+                      Data.Acid.Abstract.AcidState st)
+                   (Control.Monad.Trans.Except.$fFunctorExceptT
+                      @ m
+                      @ Servant.Server.Internal.ServerError.ServerError
+                      $dFunctor)
+                   @ a
+                   @ b) -}
+73959b31a39cf220308becb36dcf4a1f
+  $fHasAuthConfigAcidBackendT ::
+    GHC.Base.Monad m =>
+    Servant.Server.Auth.Token.Config.HasAuthConfig
+      (Servant.Server.Auth.Token.Acid.AcidBackendT st m)
+  DFunId
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <L,U(U(U(C(C(U)),A),A,A,A,A,A),C(C1(U)),A,C(U),C(U))>m,
+     Inline: CONLIKE,
+     Unfolding: DFun: @ m :: * -> * @ st (v :: GHC.Base.Monad m).
+                  @ (Servant.Server.Auth.Token.Acid.AcidBackendT st m)
+                  (Servant.Server.Auth.Token.Acid.$fMonadAcidBackendT @ st @ m v)
+                  (Servant.Server.Auth.Token.Acid.$fHasAuthConfigAcidBackendT_$cgetAuthConfig
+                     @ m
+                     @ st
+                     v) -}
+0298c801e5233ab0a059182d236f0b77
+  $fHasAuthConfigAcidBackendT1 ::
+    Data.Either.Either
+      Servant.Server.Internal.ServerError.ServerError
+      (Servant.Server.Auth.Token.Config.AuthConfig,
+       Data.Acid.Abstract.AcidState st)
+    -> Data.Either.Either
+         Servant.Server.Internal.ServerError.ServerError
+         Servant.Server.Auth.Token.Config.AuthConfig
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ st
+                   (ds1 :: Data.Either.Either
+                             Servant.Server.Internal.ServerError.ServerError
+                             (Servant.Server.Auth.Token.Config.AuthConfig,
+                              Data.Acid.Abstract.AcidState st)) ->
+                 case ds1 of wild {
+                   Data.Either.Left x5
+                   -> Data.Either.Left
+                        @ Servant.Server.Internal.ServerError.ServerError
+                        @ Servant.Server.Auth.Token.Config.AuthConfig
+                        x5
+                   Data.Either.Right y11
+                   -> Data.Either.Right
+                        @ Servant.Server.Internal.ServerError.ServerError
+                        @ Servant.Server.Auth.Token.Config.AuthConfig
+                        (Data.Tuple.fst
+                           @ Servant.Server.Auth.Token.Config.AuthConfig
+                           @ (Data.Acid.Abstract.AcidState st)
+                           y11) }) -}
+73959b31a39cf220308becb36dcf4a1f
+  $fHasAuthConfigAcidBackendT_$cgetAuthConfig ::
+    GHC.Base.Monad m =>
+    Servant.Server.Auth.Token.Acid.AcidBackendT
+      st m Servant.Server.Auth.Token.Config.AuthConfig
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <L,U(1*U(1*U(1*C1(C(U)),A),A,A,A,A,A),A,A,C(U),A)>,
+     Unfolding: (\ @ m :: * -> * @ st ($dMonad :: GHC.Base.Monad m) ->
+                 let {
+                   f1 :: m (Data.Either.Either
+                              Servant.Server.Internal.ServerError.ServerError
+                              (Servant.Server.Auth.Token.Config.AuthConfig,
+                               Data.Acid.Abstract.AcidState st))
+                         -> m (Data.Either.Either
+                                 Servant.Server.Internal.ServerError.ServerError
+                                 Servant.Server.Auth.Token.Config.AuthConfig)
+                   = GHC.Base.fmap
+                       @ m
+                       (GHC.Base.$p1Applicative @ m (GHC.Base.$p1Monad @ m $dMonad))
+                       @ (Data.Either.Either
+                            Servant.Server.Internal.ServerError.ServerError
+                            (Servant.Server.Auth.Token.Config.AuthConfig,
+                             Data.Acid.Abstract.AcidState st))
+                       @ (Data.Either.Either
+                            Servant.Server.Internal.ServerError.ServerError
+                            Servant.Server.Auth.Token.Config.AuthConfig)
+                       (Servant.Server.Auth.Token.Acid.$fHasAuthConfigAcidBackendT1 @ st)
+                 } in
+                 (\ (x5 :: (Servant.Server.Auth.Token.Config.AuthConfig,
+                            Data.Acid.Abstract.AcidState st)) ->
+                  f1
+                    (Control.Monad.Trans.Except.$fMonadExceptT1
+                       @ m
+                       @ Servant.Server.Internal.ServerError.ServerError
+                       $dMonad
+                       @ (Servant.Server.Auth.Token.Config.AuthConfig,
+                          Data.Acid.Abstract.AcidState st)
+                       x5))
+                   `cast`
+                 ((<(Servant.Server.Auth.Token.Config.AuthConfig,
+                     Data.Acid.Abstract.AcidState st)>_R
+                   ->_R Sym (Control.Monad.Trans.Except.N:ExceptT[0]
+                                 <Servant.Server.Internal.ServerError.ServerError>_N
+                                 <m>_R
+                                 <Servant.Server.Auth.Token.Config.AuthConfig>_N)) ; (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                                                                               <*>_N
+                                                                                               <(Servant.Server.Auth.Token.Config.AuthConfig,
+                                                                                                 Data.Acid.Abstract.AcidState
+                                                                                                   st)>_R
+                                                                                               <Control.Monad.Trans.Except.ExceptT
+                                                                                                  Servant.Server.Internal.ServerError.ServerError
+                                                                                                  m>_R
+                                                                                               <Servant.Server.Auth.Token.Config.AuthConfig>_N) ; Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                                                                                                                                           <st>_N
+                                                                                                                                                           <m>_R) <Servant.Server.Auth.Token.Config.AuthConfig>_N))) -}
+73959b31a39cf220308becb36dcf4a1f
+  $fMonadAcidBackendT ::
+    GHC.Base.Monad m =>
+    GHC.Base.Monad (Servant.Server.Auth.Token.Acid.AcidBackendT st m)
+  DFunId
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <L,U(U(U(C(C(U)),A),A,A,A,A,A),C(C1(U)),A,C(U),C(U))>m,
+     Inline: CONLIKE,
+     Unfolding: DFun: @ st @ m :: * -> * (v :: GHC.Base.Monad m).
+                  @ (Servant.Server.Auth.Token.Acid.AcidBackendT st m)
+                  (Servant.Server.Auth.Token.Acid.$fApplicativeAcidBackendT
+                     @ st
+                     @ m
+                     v)
+                  (Servant.Server.Auth.Token.Acid.$fMonadAcidBackendT4 @ st @ m v)
+                    `cast`
+                  (forall (a :: <*>_N) (b :: <*>_N).
+                   Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                            <st>_N <m>_R) <a>_N
+                   ->_R (<a>_R
+                         ->_R Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                       <st>_N <m>_R) <b>_N)
+                   ->_R Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                 <st>_N <m>_R) <b>_N)
+                  (Servant.Server.Auth.Token.Acid.$fMonadAcidBackendT3 @ st @ m v)
+                    `cast`
+                  (forall (a :: <*>_N) (b :: <*>_N).
+                   Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                            <st>_N <m>_R) <a>_N
+                   ->_R Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                 <st>_N <m>_R) <b>_N
+                   ->_R Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                 <st>_N <m>_R) <b>_N)
+                  (Servant.Server.Auth.Token.Acid.$fMonadAcidBackendT2 @ st @ m v)
+                    `cast`
+                  (forall (a :: <*>_N).
+                   <a>_R
+                   ->_R Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                 <st>_N <m>_R) <a>_N)
+                  (Servant.Server.Auth.Token.Acid.$fMonadAcidBackendT1 @ st @ m v)
+                    `cast`
+                  (forall (a :: <*>_N).
+                   <[GHC.Types.Char]>_R
+                   ->_R Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                 <st>_N <m>_R) <a>_N) -}
+396940594e32909a38cf1e30c4ee1959
+  $fMonadAcidBackendT1 ::
+    GHC.Base.Monad m =>
+    GHC.Base.String
+    -> Control.Monad.Trans.Reader.ReaderT
+         (Servant.Server.Auth.Token.Config.AuthConfig,
+          Data.Acid.Abstract.AcidState st)
+         (Control.Monad.Trans.Except.ExceptT
+            Servant.Server.Internal.ServerError.ServerError m)
+         a
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <L,U(U(U(C(C(U)),A),A,A,A,A,A),C(C1(U)),A,C(U),C(U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ st @ m :: * -> * ($dMonad :: GHC.Base.Monad m) @ a ->
+                 Control.Monad.Trans.Reader.$fMonadReaderT_$cfail
+                   @ (Control.Monad.Trans.Except.ExceptT
+                        Servant.Server.Internal.ServerError.ServerError m)
+                   @ (Servant.Server.Auth.Token.Config.AuthConfig,
+                      Data.Acid.Abstract.AcidState st)
+                   (Control.Monad.Trans.Except.$fMonadExceptT
+                      @ m
+                      @ Servant.Server.Internal.ServerError.ServerError
+                      $dMonad)
+                   @ a) -}
+dd90471418e583a361ad549fe00407f2
+  $fMonadAcidBackendT2 ::
+    GHC.Base.Monad m =>
+    a
+    -> Control.Monad.Trans.Reader.ReaderT
+         (Servant.Server.Auth.Token.Config.AuthConfig,
+          Data.Acid.Abstract.AcidState st)
+         (Control.Monad.Trans.Except.ExceptT
+            Servant.Server.Internal.ServerError.ServerError m)
+         a
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <L,1*U(A,A,A,1*C1(U),A)><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ st
+                   @ m :: * -> *
+                   ($dMonad :: GHC.Base.Monad m)
+                   @ a
+                   (eta :: a) ->
+                 let {
+                   m1 :: m (Data.Either.Either
+                              Servant.Server.Internal.ServerError.ServerError a)
+                   = GHC.Base.return
+                       @ m
+                       $dMonad
+                       @ (Data.Either.Either
+                            Servant.Server.Internal.ServerError.ServerError a)
+                       (Data.Either.Right
+                          @ Servant.Server.Internal.ServerError.ServerError
+                          @ a
+                          eta)
+                 } in
+                 (\ (ds :: (Servant.Server.Auth.Token.Config.AuthConfig,
+                            Data.Acid.Abstract.AcidState st)) ->
+                  m1)
+                   `cast`
+                 ((<(Servant.Server.Auth.Token.Config.AuthConfig,
+                     Data.Acid.Abstract.AcidState st)>_R
+                   ->_R Sym (Control.Monad.Trans.Except.N:ExceptT[0]
+                                 <Servant.Server.Internal.ServerError.ServerError>_N
+                                 <m>_R
+                                 <a>_N)) ; Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                                    <*>_N
+                                                    <(Servant.Server.Auth.Token.Config.AuthConfig,
+                                                      Data.Acid.Abstract.AcidState st)>_R
+                                                    <Control.Monad.Trans.Except.ExceptT
+                                                       Servant.Server.Internal.ServerError.ServerError
+                                                       m>_R
+                                                    <a>_N))) -}
+3eab4276cc31bedf8c8130849b072713
+  $fMonadAcidBackendT3 ::
+    GHC.Base.Monad m =>
+    Control.Monad.Trans.Reader.ReaderT
+      (Servant.Server.Auth.Token.Config.AuthConfig,
+       Data.Acid.Abstract.AcidState st)
+      (Control.Monad.Trans.Except.ExceptT
+         Servant.Server.Internal.ServerError.ServerError m)
+      a
+    -> Control.Monad.Trans.Reader.ReaderT
+         (Servant.Server.Auth.Token.Config.AuthConfig,
+          Data.Acid.Abstract.AcidState st)
+         (Control.Monad.Trans.Except.ExceptT
+            Servant.Server.Internal.ServerError.ServerError m)
+         b
+    -> Control.Monad.Trans.Reader.ReaderT
+         (Servant.Server.Auth.Token.Config.AuthConfig,
+          Data.Acid.Abstract.AcidState st)
+         (Control.Monad.Trans.Except.ExceptT
+            Servant.Server.Internal.ServerError.ServerError m)
+         b
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <L,U(U(U(C(C(U)),A),A,A,A,A,A),C(C1(U)),A,C(U),A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ st @ m :: * -> * ($dMonad :: GHC.Base.Monad m) @ a @ b ->
+                 Control.Monad.Trans.Reader.$fApplicativeReaderT_$c*>
+                   @ (Control.Monad.Trans.Except.ExceptT
+                        Servant.Server.Internal.ServerError.ServerError m)
+                   @ (Servant.Server.Auth.Token.Config.AuthConfig,
+                      Data.Acid.Abstract.AcidState st)
+                   (Control.Monad.Trans.Except.$fMonadExceptT_$cp1Monad
+                      @ m
+                      @ Servant.Server.Internal.ServerError.ServerError
+                      $dMonad)
+                   @ a
+                   @ b) -}
+aec9bd28637bb2f81a3f9650a8d7b3c2
+  $fMonadAcidBackendT4 ::
+    GHC.Base.Monad m =>
+    Control.Monad.Trans.Reader.ReaderT
+      (Servant.Server.Auth.Token.Config.AuthConfig,
+       Data.Acid.Abstract.AcidState st)
+      (Control.Monad.Trans.Except.ExceptT
+         Servant.Server.Internal.ServerError.ServerError m)
+      a
+    -> (a
+        -> Control.Monad.Trans.Reader.ReaderT
+             (Servant.Server.Auth.Token.Config.AuthConfig,
+              Data.Acid.Abstract.AcidState st)
+             (Control.Monad.Trans.Except.ExceptT
+                Servant.Server.Internal.ServerError.ServerError m)
+             b)
+    -> Control.Monad.Trans.Reader.ReaderT
+         (Servant.Server.Auth.Token.Config.AuthConfig,
+          Data.Acid.Abstract.AcidState st)
+         (Control.Monad.Trans.Except.ExceptT
+            Servant.Server.Internal.ServerError.ServerError m)
+         b
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <L,U(U(U(C(C(U)),A),A,A,A,A,A),C(C1(U)),A,C(U),C(U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ st @ m :: * -> * ($dMonad :: GHC.Base.Monad m) @ a @ b ->
+                 Control.Monad.Trans.Reader.$fMonadReaderT_$c>>=
+                   @ (Control.Monad.Trans.Except.ExceptT
+                        Servant.Server.Internal.ServerError.ServerError m)
+                   @ (Servant.Server.Auth.Token.Config.AuthConfig,
+                      Data.Acid.Abstract.AcidState st)
+                   (Control.Monad.Trans.Except.$fMonadExceptT
+                      @ m
+                      @ Servant.Server.Internal.ServerError.ServerError
+                      $dMonad)
+                   @ a
+                   @ b) -}
+73959b31a39cf220308becb36dcf4a1f
+  $fMonadBaseAcidBackendT ::
+    Control.Monad.Base.MonadBase GHC.Types.IO m =>
+    Control.Monad.Base.MonadBase
+      GHC.Types.IO (Servant.Server.Auth.Token.Acid.AcidBackendT st m)
+  DFunId
+  {- Arity: 1,
+     Strictness: <L,U(A,A,A,U(U(U(C(C(U)),A),A,A,A,A,A),C(C1(U)),A,C(U),C(U)),C(U))>m,
+     Inline: CONLIKE,
+     Unfolding: DFun: @ m :: * -> *
+                      @ st
+                      (v :: Control.Monad.Base.MonadBase GHC.Types.IO m).
+                  @ GHC.Types.IO
+                  @ (Servant.Server.Auth.Token.Acid.AcidBackendT st m)
+                  GHC.Base.$fApplicativeIO
+                  (Servant.Server.Auth.Token.Acid.$fMonadBaseAcidBackendT_$cp2MonadBase
+                     @ m
+                     @ st
+                     v)
+                  GHC.Base.$fMonadIO
+                  (Servant.Server.Auth.Token.Acid.$fMonadBaseAcidBackendT_$cp4MonadBase
+                     @ m
+                     @ st
+                     v)
+                  (Servant.Server.Auth.Token.Acid.$fMonadBaseAcidBackendT1
+                     @ m
+                     @ st
+                     v)
+                    `cast`
+                  (forall (α :: <*>_N).
+                   <GHC.Types.IO α>_R
+                   ->_R Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                 <st>_N <m>_R) <α>_N) -}
+cb7e0f2a46c8b6c8693df589386f2113
+  $fMonadBaseAcidBackendT1 ::
+    Control.Monad.Base.MonadBase GHC.Types.IO m =>
+    GHC.Types.IO α
+    -> Control.Monad.Trans.Reader.ReaderT
+         (Servant.Server.Auth.Token.Config.AuthConfig,
+          Data.Acid.Abstract.AcidState st)
+         (Control.Monad.Trans.Except.ExceptT
+            Servant.Server.Internal.ServerError.ServerError m)
+         α
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <L,1*U(A,A,A,1*U(A,1*C1(C1(U)),A,C(U),A),1*C1(U))><L,U>,
+     Unfolding: (\ @ m :: * -> *
+                   @ st
+                   ($dMonadBase :: Control.Monad.Base.MonadBase GHC.Types.IO m)
+                   @ α
+                   (eta :: GHC.Types.IO α) ->
+                 let {
+                   eta1 :: Control.Monad.Trans.Except.ExceptT
+                             Servant.Server.Internal.ServerError.ServerError m α
+                   = case $dMonadBase of ww { Control.Monad.Base.C:MonadBase ww1 ww2 ww3 ww4 ww5 ->
+                     case ww4 of ww6 { GHC.Base.C:Monad ww7 ww8 ww9 ww10 ww11 ->
+                     (ww8
+                        @ α
+                        @ (Data.Either.Either
+                             Servant.Server.Internal.ServerError.ServerError α)
+                        (ww5 @ α eta)
+                        (\ (x5 :: α) ->
+                         ww10
+                           @ (Data.Either.Either
+                                Servant.Server.Internal.ServerError.ServerError α)
+                           (Data.Either.Right
+                              @ Servant.Server.Internal.ServerError.ServerError
+                              @ α
+                              x5)))
+                       `cast`
+                     (Sym (Control.Monad.Trans.Except.N:ExceptT[0]
+                               <Servant.Server.Internal.ServerError.ServerError>_N
+                               <m>_R
+                               <α>_N)) } }
+                 } in
+                 (\ (eta2 :: (Servant.Server.Auth.Token.Config.AuthConfig,
+                              Data.Acid.Abstract.AcidState st)) ->
+                  eta1)
+                   `cast`
+                 (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                           <*>_N
+                           <(Servant.Server.Auth.Token.Config.AuthConfig,
+                             Data.Acid.Abstract.AcidState st)>_R
+                           <Control.Monad.Trans.Except.ExceptT
+                              Servant.Server.Internal.ServerError.ServerError m>_R
+                           <α>_N))) -}
+73959b31a39cf220308becb36dcf4a1f
+  $fMonadBaseAcidBackendT_$cp2MonadBase ::
+    Control.Monad.Base.MonadBase GHC.Types.IO m =>
+    GHC.Base.Applicative
+      (Servant.Server.Auth.Token.Acid.AcidBackendT st m)
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <L,1*U(A,A,A,1*U(U(U(C(C(U)),A),A,A,A,A,A),C(C1(U)),A,C(U),A),A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ m :: * -> *
+                   @ st
+                   ($dMonadBase :: Control.Monad.Base.MonadBase GHC.Types.IO m) ->
+                 Servant.Server.Auth.Token.Acid.$fApplicativeAcidBackendT
+                   @ st
+                   @ m
+                   (Control.Monad.Base.$p4MonadBase
+                      @ GHC.Types.IO
+                      @ m
+                      $dMonadBase)) -}
+73959b31a39cf220308becb36dcf4a1f
+  $fMonadBaseAcidBackendT_$cp4MonadBase ::
+    Control.Monad.Base.MonadBase GHC.Types.IO m =>
+    GHC.Base.Monad (Servant.Server.Auth.Token.Acid.AcidBackendT st m)
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <L,1*U(A,A,A,1*U(U(U(C(C(U)),A),A,A,A,A,A),C(C1(U)),A,C(U),C(U)),A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ m :: * -> *
+                   @ st
+                   ($dMonadBase :: Control.Monad.Base.MonadBase GHC.Types.IO m) ->
+                 Servant.Server.Auth.Token.Acid.$fMonadAcidBackendT
+                   @ st
+                   @ m
+                   (Control.Monad.Base.$p4MonadBase
+                      @ GHC.Types.IO
+                      @ m
+                      $dMonadBase)) -}
+73959b31a39cf220308becb36dcf4a1f
+  $fMonadBaseControlIOAcidBackendT ::
+    Control.Monad.Trans.Control.MonadBaseControl GHC.Types.IO m =>
+    Control.Monad.Trans.Control.MonadBaseControl
+      GHC.Types.IO (Servant.Server.Auth.Token.Acid.AcidBackendT st m)
+  DFunId
+  {- Arity: 1,
+     Strictness: <L,U(U(A,A,A,U(U(U(U,U),U,U,U,U,U),U,U,U,U),C(U)),C(U),C(U))>m,
+     Inline: CONLIKE,
+     Unfolding: DFun: @ m :: * -> *
+                      @ st
+                      (v :: Control.Monad.Trans.Control.MonadBaseControl GHC.Types.IO m).
+                  @ GHC.Types.IO
+                  @ (Servant.Server.Auth.Token.Acid.AcidBackendT st m)
+                  (Servant.Server.Auth.Token.Acid.$fMonadBaseControlIOAcidBackendT_$cp1MonadBaseControl
+                     @ m
+                     @ st
+                     v)
+                  (Servant.Server.Auth.Token.Acid.$fMonadBaseControlIOAcidBackendT1
+                     @ m
+                     @ st
+                     v)
+                    `cast`
+                  (forall (a :: <*>_N).
+                   <Control.Monad.Trans.Control.RunInBase
+                      (Servant.Server.Auth.Token.Acid.AcidBackendT st m) GHC.Types.IO
+                    -> GHC.Types.IO a>_R
+                   ->_R Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                 <*>_N
+                                 <(Servant.Server.Auth.Token.Config.AuthConfig,
+                                   Data.Acid.Abstract.AcidState st)>_R
+                                 <Control.Monad.Trans.Except.ExceptT
+                                    Servant.Server.Internal.ServerError.ServerError m>_R
+                                 <a>_N) ; Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                                   <st>_N <m>_R) <a>_N)
+                  (Servant.Server.Auth.Token.Acid.$fMonadBaseControlIOAcidBackendT_$crestoreM
+                     @ m
+                     @ st
+                     v) -}
+73959b31a39cf220308becb36dcf4a1f
+  $fMonadBaseControlIOAcidBackendT1 ::
+    Control.Monad.Trans.Control.MonadBaseControl GHC.Types.IO m =>
+    (Control.Monad.Trans.Control.RunInBase
+       (Servant.Server.Auth.Token.Acid.AcidBackendT st m) GHC.Types.IO
+     -> GHC.Types.IO a)
+    -> (Servant.Server.Auth.Token.Config.AuthConfig,
+        Data.Acid.Abstract.AcidState st)
+    -> Control.Monad.Trans.Except.ExceptT
+         Servant.Server.Internal.ServerError.ServerError m a
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <L,U(U(A,A,A,U,A),C(U),A)><L,C(U)><L,U>,
+     Unfolding: (\ @ m :: * -> *
+                   @ st
+                   ($dMonadBaseControl :: Control.Monad.Trans.Control.MonadBaseControl
+                                            GHC.Types.IO m)
+                   @ a
+                   (f :: Control.Monad.Trans.Control.RunInBase
+                           (Servant.Server.Auth.Token.Acid.AcidBackendT st m) GHC.Types.IO
+                         -> GHC.Types.IO a)
+                   (w2 :: (Servant.Server.Auth.Token.Config.AuthConfig,
+                           Data.Acid.Abstract.AcidState st)) ->
+                 Control.Monad.Trans.Control.defaultLiftBaseWith
+                   @ (Control.Monad.Trans.Except.ExceptT
+                        Servant.Server.Internal.ServerError.ServerError)
+                   @ GHC.Types.IO
+                   @ m
+                   @ a
+                   (Control.Monad.Trans.Control.$fMonadTransControlExceptT
+                      @ Servant.Server.Internal.ServerError.ServerError)
+                   $dMonadBaseControl
+                   (\ (ds1 :: Control.Monad.Trans.Control.RunInBaseDefault
+                                (Control.Monad.Trans.Except.ExceptT
+                                   Servant.Server.Internal.ServerError.ServerError)
+                                m
+                                GHC.Types.IO) ->
+                    f (\ @ a1
+                         (x5 :: Servant.Server.Auth.Token.Acid.AcidBackendT st m a1)
+                         (s10 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                       case (ds1
+                               @ (Control.Monad.Trans.Control.StT
+                                    (Control.Monad.Trans.Reader.ReaderT
+                                       (Servant.Server.Auth.Token.Config.AuthConfig,
+                                        Data.Acid.Abstract.AcidState st))
+                                    a1)
+                               (x5
+                                  `cast`
+                                (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                     <st>_N <m>_R <a1>_N ; Control.Monad.Trans.Reader.N:ReaderT[0]
+                                                               <*>_N
+                                                               <(Servant.Server.Auth.Token.Config.AuthConfig,
+                                                                 Data.Acid.Abstract.AcidState st)>_R
+                                                               <Control.Monad.Trans.Except.ExceptT
+                                                                  Servant.Server.Internal.ServerError.ServerError
+                                                                  m>_R
+                                                               <a1>_N)
+                                  w2)
+                                 `cast`
+                               (Control.Monad.Trans.Except.ExceptT
+                                  <Servant.Server.Internal.ServerError.ServerError>_N
+                                  <m>_R
+                                  (Sym (Control.Monad.Trans.Control.D:R:StTReaderTa[0]
+                                            <(Servant.Server.Auth.Token.Config.AuthConfig,
+                                              Data.Acid.Abstract.AcidState st)>_N
+                                            <a1>_N)))_R)
+                              `cast`
+                            (GHC.Types.N:IO[0]
+                                 (Control.Monad.Trans.Control.StM
+                                    <m>_N
+                                    (Control.Monad.Trans.Control.D:R:StTExceptTa[0]
+                                         <Servant.Server.Internal.ServerError.ServerError>_N
+                                         (Control.Monad.Trans.Control.D:R:StTReaderTa[0]
+                                              <(Servant.Server.Auth.Token.Config.AuthConfig,
+                                                Data.Acid.Abstract.AcidState st)>_N
+                                              <a1>_N)))_R)
+                              s10 of ds { (#,#) ipv ipv1 ->
+                       (# ipv,
+                          ipv1
+                            `cast`
+                          ((Control.Monad.Trans.Control.StM
+                              <m>_N
+                              (Sym (Control.Monad.Trans.Control.D:R:StTExceptTa[0]
+                                        <Servant.Server.Internal.ServerError.ServerError>_N
+                                        (Control.Monad.Trans.Control.D:R:StTReaderTa[0]
+                                             <(Servant.Server.Auth.Token.Config.AuthConfig,
+                                               Data.Acid.Abstract.AcidState st)>_N
+                                             <a1>_N))))_R ; (Sub (Sym (Control.Monad.Trans.Control.D:R:StMExceptTa[0]
+                                                                           <Servant.Server.Internal.ServerError.ServerError>_N
+                                                                           <m>_N
+                                                                           <Control.Monad.Trans.Control.StT
+                                                                              (Control.Monad.Trans.Reader.ReaderT
+                                                                                 (Servant.Server.Auth.Token.Config.AuthConfig,
+                                                                                  Data.Acid.Abstract.AcidState
+                                                                                    st))
+                                                                              a1>_N)) ; (Sub (Sym (Control.Monad.Trans.Control.D:R:StMReaderTa[0]
+                                                                                                       <(Servant.Server.Auth.Token.Config.AuthConfig,
+                                                                                                         Data.Acid.Abstract.AcidState
+                                                                                                           st)>_N
+                                                                                                       <Control.Monad.Trans.Except.ExceptT
+                                                                                                          Servant.Server.Internal.ServerError.ServerError
+                                                                                                          m>_N
+                                                                                                       <a1>_N)) ; Sym (Servant.Server.Auth.Token.Acid.N:StMAcidBackendT[0]
+                                                                                                                           <st>_N
+                                                                                                                           <m>_N
+                                                                                                                           <a1>_N)))) #) })
+                        `cast`
+                      (forall (a1 :: <*>_N).
+                       <Servant.Server.Auth.Token.Acid.AcidBackendT st m a1>_R
+                       ->_R Sym (GHC.Types.N:IO[0]
+                                     (Sub (Servant.Server.Auth.Token.Acid.D:R:StMAcidBackendTa[0]
+                                               <st>_N <m>_N <a1>_N)))))) -}
+73959b31a39cf220308becb36dcf4a1f
+  $fMonadBaseControlIOAcidBackendT_$cp1MonadBaseControl ::
+    Control.Monad.Trans.Control.MonadBaseControl GHC.Types.IO m =>
+    Control.Monad.Base.MonadBase
+      GHC.Types.IO (Servant.Server.Auth.Token.Acid.AcidBackendT st m)
+  {- Arity: 1,
+     Strictness: <L,1*U(1*U(A,A,A,U(U(U(C(C(U)),A),A,A,A,A,A),C(C1(U)),A,C(U),C(U)),C(U)),A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ m :: * -> *
+                   @ st
+                   ($dMonadBaseControl :: Control.Monad.Trans.Control.MonadBaseControl
+                                            GHC.Types.IO m) ->
+                 Servant.Server.Auth.Token.Acid.$fMonadBaseAcidBackendT
+                   @ m
+                   @ st
+                   (Control.Monad.Trans.Control.$p1MonadBaseControl
+                      @ GHC.Types.IO
+                      @ m
+                      $dMonadBaseControl)) -}
+73959b31a39cf220308becb36dcf4a1f
+  $fMonadBaseControlIOAcidBackendT_$crestoreM ::
+    Control.Monad.Trans.Control.MonadBaseControl GHC.Types.IO m =>
+    Control.Monad.Trans.Control.StM
+      (Servant.Server.Auth.Token.Acid.AcidBackendT st m) a
+    -> Servant.Server.Auth.Token.Acid.AcidBackendT st m a
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,1*U(A,A,1*C1(U))><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ m :: * -> *
+                   @ st
+                   ($dMonadBaseControl :: Control.Monad.Trans.Control.MonadBaseControl
+                                            GHC.Types.IO m)
+                   @ a
+                   (eta :: Control.Monad.Trans.Control.StM
+                             (Servant.Server.Auth.Token.Acid.AcidBackendT st m) a) ->
+                 let {
+                   w1 :: m (Control.Monad.Trans.Control.StT
+                              (Control.Monad.Trans.Except.ExceptT
+                                 Servant.Server.Internal.ServerError.ServerError)
+                              (Control.Monad.Trans.Control.StT
+                                 (Control.Monad.Trans.Reader.ReaderT
+                                    (Servant.Server.Auth.Token.Config.AuthConfig,
+                                     Data.Acid.Abstract.AcidState st))
+                                 a))
+                   = Control.Monad.Trans.Control.restoreM
+                       @ GHC.Types.IO
+                       @ m
+                       $dMonadBaseControl
+                       @ (Control.Monad.Trans.Control.StT
+                            (Control.Monad.Trans.Except.ExceptT
+                               Servant.Server.Internal.ServerError.ServerError)
+                            (Control.Monad.Trans.Control.StT
+                               (Control.Monad.Trans.Reader.ReaderT
+                                  (Servant.Server.Auth.Token.Config.AuthConfig,
+                                   Data.Acid.Abstract.AcidState st))
+                               a))
+                       eta
+                         `cast`
+                       (Sub (Servant.Server.Auth.Token.Acid.D:R:StMAcidBackendTa[0]
+                                 <st>_N
+                                 <m>_N
+                                 <a>_N) ; (Servant.Server.Auth.Token.Acid.N:StMAcidBackendT[0]
+                                               <st>_N
+                                               <m>_N
+                                               <a>_N ; (Sub (Control.Monad.Trans.Control.D:R:StMReaderTa[0]
+                                                                 <(Servant.Server.Auth.Token.Config.AuthConfig,
+                                                                   Data.Acid.Abstract.AcidState
+                                                                     st)>_N
+                                                                 <Control.Monad.Trans.Except.ExceptT
+                                                                    Servant.Server.Internal.ServerError.ServerError
+                                                                    m>_N
+                                                                 <a>_N) ; Sub (Control.Monad.Trans.Control.D:R:StMExceptTa[0]
+                                                                                   <Servant.Server.Internal.ServerError.ServerError>_N
+                                                                                   <m>_N
+                                                                                   <Control.Monad.Trans.Control.StT
+                                                                                      (Control.Monad.Trans.Reader.ReaderT
+                                                                                         (Servant.Server.Auth.Token.Config.AuthConfig,
+                                                                                          Data.Acid.Abstract.AcidState
+                                                                                            st))
+                                                                                      a>_N))))
+                 } in
+                 (\ (w2 :: (Servant.Server.Auth.Token.Config.AuthConfig,
+                            Data.Acid.Abstract.AcidState st)) ->
+                  w1)
+                   `cast`
+                 ((<(Servant.Server.Auth.Token.Config.AuthConfig,
+                     Data.Acid.Abstract.AcidState st)>_R
+                   ->_R <m>_R (Control.Monad.Trans.Control.D:R:StTExceptTa[0]
+                                   <Servant.Server.Internal.ServerError.ServerError>_N
+                                   <Control.Monad.Trans.Control.StT
+                                      (Control.Monad.Trans.Reader.ReaderT
+                                         (Servant.Server.Auth.Token.Config.AuthConfig,
+                                          Data.Acid.Abstract.AcidState st))
+                                      a>_N) ; Sym (Control.Monad.Trans.Except.N:ExceptT[0]
+                                                       <Servant.Server.Internal.ServerError.ServerError>_N
+                                                       <m>_R
+                                                       <Control.Monad.Trans.Control.StT
+                                                          (Control.Monad.Trans.Reader.ReaderT
+                                                             (Servant.Server.Auth.Token.Config.AuthConfig,
+                                                              Data.Acid.Abstract.AcidState st))
+                                                          a>_N)) ; (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                                                             <*>_N
+                                                                             <(Servant.Server.Auth.Token.Config.AuthConfig,
+                                                                               Data.Acid.Abstract.AcidState
+                                                                                 st)>_R
+                                                                             <Control.Monad.Trans.Except.ExceptT
+                                                                                Servant.Server.Internal.ServerError.ServerError
+                                                                                m>_R
+                                                                             (Sym (Control.Monad.Trans.Control.D:R:StTReaderTa[0]
+                                                                                       <(Servant.Server.Auth.Token.Config.AuthConfig,
+                                                                                         Data.Acid.Abstract.AcidState
+                                                                                           st)>_N
+                                                                                       <a>_N))) ; Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                                                                                           <st>_N
+                                                                                                           <m>_R) <a>_N))) -}
+73959b31a39cf220308becb36dcf4a1f
+  $fMonadErrorAcidBackendT ::
+    GHC.Base.Monad m =>
+    Control.Monad.Error.Class.MonadError
+      Servant.Server.Internal.ServerError.ServerError
+      (Servant.Server.Auth.Token.Acid.AcidBackendT st m)
+  DFunId
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <L,U(U(U(C(C(U)),A),A,A,A,A,A),C(C1(U)),A,C(U),C(U))>m,
+     Inline: CONLIKE,
+     Unfolding: DFun: @ st @ m :: * -> * (v :: GHC.Base.Monad m).
+                  @ Servant.Server.Internal.ServerError.ServerError
+                  @ (Servant.Server.Auth.Token.Acid.AcidBackendT st m)
+                  (Servant.Server.Auth.Token.Acid.$fMonadAcidBackendT @ st @ m v)
+                  (Servant.Server.Auth.Token.Acid.$fMonadErrorAcidBackendT2
+                     @ st
+                     @ m
+                     v)
+                    `cast`
+                  (forall (a :: <*>_N).
+                   <Servant.Server.Internal.ServerError.ServerError>_R
+                   ->_R Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                 <st>_N <m>_R) <a>_N)
+                  (Servant.Server.Auth.Token.Acid.$fMonadErrorAcidBackendT1
+                     @ st
+                     @ m
+                     v)
+                    `cast`
+                  (forall (a :: <*>_N).
+                   Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                            <st>_N <m>_R) <a>_N
+                   ->_R (<Servant.Server.Internal.ServerError.ServerError>_R
+                         ->_R Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                       <st>_N <m>_R) <a>_N)
+                   ->_R (<(Servant.Server.Auth.Token.Config.AuthConfig,
+                           Data.Acid.Abstract.AcidState st)>_R
+                         ->_R Sym (Control.Monad.Trans.Except.N:ExceptT[0]
+                                       <Servant.Server.Internal.ServerError.ServerError>_N
+                                       <m>_R
+                                       <a>_N)) ; (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                                           <*>_N
+                                                           <(Servant.Server.Auth.Token.Config.AuthConfig,
+                                                             Data.Acid.Abstract.AcidState st)>_R
+                                                           <Control.Monad.Trans.Except.ExceptT
+                                                              Servant.Server.Internal.ServerError.ServerError
+                                                              m>_R
+                                                           <a>_N) ; Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                                                             <st>_N
+                                                                             <m>_R) <a>_N)) -}
+4c66fd61238727a18c01e8ea16bfa2d9
+  $fMonadErrorAcidBackendT1 ::
+    GHC.Base.Monad m =>
+    Control.Monad.Trans.Reader.ReaderT
+      (Servant.Server.Auth.Token.Config.AuthConfig,
+       Data.Acid.Abstract.AcidState st)
+      (Control.Monad.Trans.Except.ExceptT
+         Servant.Server.Internal.ServerError.ServerError m)
+      a
+    -> (Servant.Server.Internal.ServerError.ServerError
+        -> Control.Monad.Trans.Reader.ReaderT
+             (Servant.Server.Auth.Token.Config.AuthConfig,
+              Data.Acid.Abstract.AcidState st)
+             (Control.Monad.Trans.Except.ExceptT
+                Servant.Server.Internal.ServerError.ServerError m)
+             a)
+    -> (Servant.Server.Auth.Token.Config.AuthConfig,
+        Data.Acid.Abstract.AcidState st)
+    -> m (Data.Either.Either
+            Servant.Server.Internal.ServerError.ServerError a)
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <S(LC(C(S))LLL),1*U(A,1*C1(C1(U)),A,C(U),A)><L,1*C1(U)><L,C(C1(U))><L,U>,
+     Inline: [2],
+     Unfolding: InlineRule (4, True, False)
+                (\ @ st
+                   @ m :: * -> *
+                   (w :: GHC.Base.Monad m)
+                   @ a
+                   (w1 :: Control.Monad.Trans.Reader.ReaderT
+                            (Servant.Server.Auth.Token.Config.AuthConfig,
+                             Data.Acid.Abstract.AcidState st)
+                            (Control.Monad.Trans.Except.ExceptT
+                               Servant.Server.Internal.ServerError.ServerError m)
+                            a)
+                   (w2 :: Servant.Server.Internal.ServerError.ServerError
+                          -> Control.Monad.Trans.Reader.ReaderT
+                               (Servant.Server.Auth.Token.Config.AuthConfig,
+                                Data.Acid.Abstract.AcidState st)
+                               (Control.Monad.Trans.Except.ExceptT
+                                  Servant.Server.Internal.ServerError.ServerError m)
+                               a)
+                   (w3 :: (Servant.Server.Auth.Token.Config.AuthConfig,
+                           Data.Acid.Abstract.AcidState st)) ->
+                 case w of ww { GHC.Base.C:Monad ww1 ww2 ww3 ww4 ww5 ->
+                 Servant.Server.Auth.Token.Acid.$w$ccatchError
+                   @ st
+                   @ m
+                   ww2
+                   ww4
+                   @ a
+                   w1
+                   w2
+                   w3 }) -}
+5cb56f6fde27f39cbcff8375b6e4f97e
+  $fMonadErrorAcidBackendT2 ::
+    GHC.Base.Monad m =>
+    Servant.Server.Internal.ServerError.ServerError
+    -> Control.Monad.Trans.Reader.ReaderT
+         (Servant.Server.Auth.Token.Config.AuthConfig,
+          Data.Acid.Abstract.AcidState st)
+         (Control.Monad.Trans.Except.ExceptT
+            Servant.Server.Internal.ServerError.ServerError m)
+         a
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <L,1*U(A,A,A,1*C1(U),A)><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ st
+                   @ m :: * -> *
+                   ($dMonad :: GHC.Base.Monad m)
+                   @ a
+                   (eta :: Servant.Server.Internal.ServerError.ServerError) ->
+                 let {
+                   m1 :: m (Data.Either.Either
+                              Servant.Server.Internal.ServerError.ServerError a)
+                   = GHC.Base.return
+                       @ m
+                       $dMonad
+                       @ (Data.Either.Either
+                            Servant.Server.Internal.ServerError.ServerError a)
+                       (Data.Either.Left
+                          @ Servant.Server.Internal.ServerError.ServerError
+                          @ a
+                          eta)
+                 } in
+                 (\ (ds :: (Servant.Server.Auth.Token.Config.AuthConfig,
+                            Data.Acid.Abstract.AcidState st)) ->
+                  m1)
+                   `cast`
+                 ((<(Servant.Server.Auth.Token.Config.AuthConfig,
+                     Data.Acid.Abstract.AcidState st)>_R
+                   ->_R Sym (Control.Monad.Trans.Except.N:ExceptT[0]
+                                 <Servant.Server.Internal.ServerError.ServerError>_N
+                                 <m>_R
+                                 <a>_N)) ; Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                                    <*>_N
+                                                    <(Servant.Server.Auth.Token.Config.AuthConfig,
+                                                      Data.Acid.Abstract.AcidState st)>_R
+                                                    <Control.Monad.Trans.Except.ExceptT
+                                                       Servant.Server.Internal.ServerError.ServerError
+                                                       m>_R
+                                                    <a>_N))) -}
+73959b31a39cf220308becb36dcf4a1f
+  $fMonadIOAcidBackendT ::
+    Control.Monad.IO.Class.MonadIO m =>
+    Control.Monad.IO.Class.MonadIO
+      (Servant.Server.Auth.Token.Acid.AcidBackendT st m)
+  DFunId
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <L,U(U(U(U(C(C(U)),A),A,A,A,A,A),C(C1(U)),A,C(U),C(U)),C(U))>m,
+     Inline: CONLIKE,
+     Unfolding: DFun: @ st
+                      @ m :: * -> *
+                      (v :: Control.Monad.IO.Class.MonadIO m).
+                  @ (Servant.Server.Auth.Token.Acid.AcidBackendT st m)
+                  (Servant.Server.Auth.Token.Acid.$fMonadIOAcidBackendT_$cp1MonadIO
+                     @ st
+                     @ m
+                     v)
+                  (Servant.Server.Auth.Token.Acid.$fMonadIOAcidBackendT_$cliftIO
+                     @ st
+                     @ m
+                     v) -}
+73959b31a39cf220308becb36dcf4a1f
+  $fMonadIOAcidBackendT_$cliftIO ::
+    Control.Monad.IO.Class.MonadIO m =>
+    GHC.Types.IO a
+    -> Servant.Server.Auth.Token.Acid.AcidBackendT st m a
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <L,U(1*U(A,1*C1(C1(U)),A,C(U),A),1*C1(U))><L,U>,
+     Unfolding: (\ @ st
+                   @ m :: * -> *
+                   ($dMonadIO :: Control.Monad.IO.Class.MonadIO m)
+                   @ a
+                   (eta :: GHC.Types.IO a) ->
+                 let {
+                   m1 :: m (Data.Either.Either
+                              Servant.Server.Internal.ServerError.ServerError a)
+                   = case Control.Monad.IO.Class.$p1MonadIO
+                            @ m
+                            $dMonadIO of ww { GHC.Base.C:Monad ww1 ww2 ww3 ww4 ww5 ->
+                     ww2
+                       @ a
+                       @ (Data.Either.Either
+                            Servant.Server.Internal.ServerError.ServerError a)
+                       (Control.Monad.IO.Class.liftIO @ m $dMonadIO @ a eta)
+                       (\ (x5 :: a) ->
+                        ww4
+                          @ (Data.Either.Either
+                               Servant.Server.Internal.ServerError.ServerError a)
+                          (Data.Either.Right
+                             @ Servant.Server.Internal.ServerError.ServerError
+                             @ a
+                             x5)) }
+                 } in
+                 (\ (ds :: (Servant.Server.Auth.Token.Config.AuthConfig,
+                            Data.Acid.Abstract.AcidState st)) ->
+                  m1)
+                   `cast`
+                 ((<(Servant.Server.Auth.Token.Config.AuthConfig,
+                     Data.Acid.Abstract.AcidState st)>_R
+                   ->_R Sym (Control.Monad.Trans.Except.N:ExceptT[0]
+                                 <Servant.Server.Internal.ServerError.ServerError>_N
+                                 <m>_R
+                                 <a>_N)) ; (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                                     <*>_N
+                                                     <(Servant.Server.Auth.Token.Config.AuthConfig,
+                                                       Data.Acid.Abstract.AcidState st)>_R
+                                                     <Control.Monad.Trans.Except.ExceptT
+                                                        Servant.Server.Internal.ServerError.ServerError
+                                                        m>_R
+                                                     <a>_N) ; Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                                                       <st>_N <m>_R) <a>_N))) -}
+73959b31a39cf220308becb36dcf4a1f
+  $fMonadIOAcidBackendT_$cp1MonadIO ::
+    Control.Monad.IO.Class.MonadIO m =>
+    GHC.Base.Monad (Servant.Server.Auth.Token.Acid.AcidBackendT st m)
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <L,1*U(1*U(U(U(C(C(U)),A),A,A,A,A,A),C(C1(U)),A,C(U),C(U)),A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ st
+                   @ m :: * -> *
+                   ($dMonadIO :: Control.Monad.IO.Class.MonadIO m) ->
+                 Servant.Server.Auth.Token.Acid.$fMonadAcidBackendT
+                   @ st
+                   @ m
+                   (Control.Monad.IO.Class.$p1MonadIO @ m $dMonadIO)) -}
+73959b31a39cf220308becb36dcf4a1f
+  $fMonadReaderAcidBackendT ::
+    GHC.Base.Monad m =>
+    Control.Monad.Reader.Class.MonadReader
+      (Servant.Server.Auth.Token.Config.AuthConfig,
+       Data.Acid.Abstract.AcidState st)
+      (Servant.Server.Auth.Token.Acid.AcidBackendT st m)
+  DFunId
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <L,U(U(U(C(C(U)),A),A,A,A,A,A),C(C1(U)),A,C(U),C(U))>m,
+     Inline: CONLIKE,
+     Unfolding: DFun: @ st @ m :: * -> * (v :: GHC.Base.Monad m).
+                  @ (Servant.Server.Auth.Token.Config.AuthConfig,
+                     Data.Acid.Abstract.AcidState st)
+                  @ (Servant.Server.Auth.Token.Acid.AcidBackendT st m)
+                  (Servant.Server.Auth.Token.Acid.$fMonadAcidBackendT @ st @ m v)
+                  (Control.Monad.Trans.Except.$fMonadExceptT1
+                     @ m
+                     @ Servant.Server.Internal.ServerError.ServerError
+                     v
+                     @ (Servant.Server.Auth.Token.Config.AuthConfig,
+                        Data.Acid.Abstract.AcidState st))
+                    `cast`
+                  ((<(Servant.Server.Auth.Token.Config.AuthConfig,
+                      Data.Acid.Abstract.AcidState st)>_R
+                    ->_R Sym (Control.Monad.Trans.Except.N:ExceptT[0]
+                                  <Servant.Server.Internal.ServerError.ServerError>_N
+                                  <m>_R
+                                  <(Servant.Server.Auth.Token.Config.AuthConfig,
+                                    Data.Acid.Abstract.AcidState
+                                      st)>_N)) ; (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                                           <*>_N
+                                                           <(Servant.Server.Auth.Token.Config.AuthConfig,
+                                                             Data.Acid.Abstract.AcidState st)>_R
+                                                           <Control.Monad.Trans.Except.ExceptT
+                                                              Servant.Server.Internal.ServerError.ServerError
+                                                              m>_R
+                                                           <(Servant.Server.Auth.Token.Config.AuthConfig,
+                                                             Data.Acid.Abstract.AcidState
+                                                               st)>_N) ; Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                                                                  <st>_N
+                                                                                  <m>_R) <(Servant.Server.Auth.Token.Config.AuthConfig,
+                                                                                           Data.Acid.Abstract.AcidState
+                                                                                             st)>_N))
+                  (Control.Monad.Trans.Reader.withReaderT
+                     @ *
+                     @ (Servant.Server.Auth.Token.Config.AuthConfig,
+                        Data.Acid.Abstract.AcidState st)
+                     @ (Servant.Server.Auth.Token.Config.AuthConfig,
+                        Data.Acid.Abstract.AcidState st)
+                     @ (Control.Monad.Trans.Except.ExceptT
+                          Servant.Server.Internal.ServerError.ServerError m))
+                    `cast`
+                  (forall (a :: <*>_N).
+                   <(Servant.Server.Auth.Token.Config.AuthConfig,
+                     Data.Acid.Abstract.AcidState st)
+                    -> (Servant.Server.Auth.Token.Config.AuthConfig,
+                        Data.Acid.Abstract.AcidState st)>_R
+                   ->_R Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                 <st>_N <m>_R) <a>_N
+                   ->_R Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                 <st>_N <m>_R) <a>_N)
+                  (Servant.Server.Auth.Token.Acid.$fMonadReaderAcidBackendT1
+                     @ st
+                     @ m
+                     v)
+                    `cast`
+                  (forall (a :: <*>_N).
+                   <(Servant.Server.Auth.Token.Config.AuthConfig,
+                     Data.Acid.Abstract.AcidState st)
+                    -> a>_R
+                   ->_R Sym (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                                 <st>_N <m>_R) <a>_N) -}
+a1a888f847d4e4fe252dd7c3d312bdd8
+  $fMonadReaderAcidBackendT1 ::
+    GHC.Base.Monad m =>
+    ((Servant.Server.Auth.Token.Config.AuthConfig,
+      Data.Acid.Abstract.AcidState st)
+     -> a)
+    -> Control.Monad.Trans.Reader.ReaderT
+         (Servant.Server.Auth.Token.Config.AuthConfig,
+          Data.Acid.Abstract.AcidState st)
+         (Control.Monad.Trans.Except.ExceptT
+            Servant.Server.Internal.ServerError.ServerError m)
+         a
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <L,U(U(U(C(C(U)),A),A,A,A,A,A),C(C1(U)),A,C(U),C(U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ st @ m :: * -> * ($dMonad :: GHC.Base.Monad m) @ a ->
+                 Control.Monad.Trans.Reader.reader
+                   @ (Control.Monad.Trans.Except.ExceptT
+                        Servant.Server.Internal.ServerError.ServerError m)
+                   @ (Servant.Server.Auth.Token.Config.AuthConfig,
+                      Data.Acid.Abstract.AcidState st)
+                   @ a
+                   (Control.Monad.Trans.Except.$fMonadExceptT
+                      @ m
+                      @ Servant.Server.Internal.ServerError.ServerError
+                      $dMonad)) -}
+07bc904c250eeece2472947edef5e168
+  $tc'AcidBackendT :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   5425323198238477600##
+                   11320658401716552159##
+                   Servant.Server.Auth.Token.Acid.$trModule
+                   Servant.Server.Auth.Token.Acid.$tc'AcidBackendT2
+                   3#
+                   Servant.Server.Auth.Token.Acid.$tc'AcidBackendT1) -}
+fdda0048c67436f3a8c1cd375e694243
+  $tc'AcidBackendT1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+2888115be01d97eea75ba92a3befc3f7
+  $tc'AcidBackendT2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Servant.Server.Auth.Token.Acid.$tc'AcidBackendT3) -}
+95f7cf5ba2c8e0096399663d266b39a4
+  $tc'AcidBackendT3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'AcidBackendT"#) -}
+024d4ee886da68755aa92bfb3240fe9e
+  $tcAcidBackendT :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   4890506060076005166##
+                   16631234816535383288##
+                   Servant.Server.Auth.Token.Acid.$trModule
+                   Servant.Server.Auth.Token.Acid.$tcAcidBackendT2
+                   0#
+                   Servant.Server.Auth.Token.Acid.$tcAcidBackendT1) -}
+7b83ff0dc5d8b3a1dad14d0c17085f3f
+  $tcAcidBackendT1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+644ecb7ca1611f39a7938255a3447fde
+  $tcAcidBackendT2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Servant.Server.Auth.Token.Acid.$tcAcidBackendT3) -}
+e2cd6c961d50bc930e6c77850c9b12f4
+  $tcAcidBackendT3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("AcidBackendT"#) -}
+add0e72a6566413c7d2fb63f579a438a
+  $tcStMAcidBackendT :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   18077260186544774687##
+                   10275575740021894170##
+                   Servant.Server.Auth.Token.Acid.$trModule
+                   Servant.Server.Auth.Token.Acid.$tcStMAcidBackendT1
+                   0#
+                   Servant.Server.Auth.Token.Acid.$tcAcidBackendT1) -}
+6466785f5c2b2be8225d42971c85b91f
+  $tcStMAcidBackendT1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Servant.Server.Auth.Token.Acid.$tcStMAcidBackendT2) -}
+2aa97fb894f7b6a0ea3a2f2944dfab8a
+  $tcStMAcidBackendT2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StMAcidBackendT"#) -}
+a3ef770d21ef4397e91483957cf45be4
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Servant.Server.Auth.Token.Acid.$trModule3
+                   Servant.Server.Auth.Token.Acid.$trModule1) -}
+e244fdb96abd6f26a0a5700af84c9536
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Servant.Server.Auth.Token.Acid.$trModule2) -}
+904c80d1722a2cf80834f896623f8f4a
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Servant.Server.Auth.Token.Acid"#) -}
+c99e2d43c3788b8f3c7e763a32e2be98
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Servant.Server.Auth.Token.Acid.$trModule4) -}
+0dd890a3bd4f71737a6f9c63f4ea67ed
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("servant-auth-token-acid-0.5.4.0-ISWqDrrXOr1LDqeVjYMVhJ"#) -}
+4f55f3920aae947a352cd192f31686d1
+  $w$ccatchError ::
+    (forall a b. m a -> (a -> m b) -> m b)
+    -> (forall a. a -> m a)
+    -> forall a.
+       Control.Monad.Trans.Reader.ReaderT
+         (Servant.Server.Auth.Token.Config.AuthConfig,
+          Data.Acid.Abstract.AcidState st)
+         (Control.Monad.Trans.Except.ExceptT
+            Servant.Server.Internal.ServerError.ServerError m)
+         a
+       -> (Servant.Server.Internal.ServerError.ServerError
+           -> Control.Monad.Trans.Reader.ReaderT
+                (Servant.Server.Auth.Token.Config.AuthConfig,
+                 Data.Acid.Abstract.AcidState st)
+                (Control.Monad.Trans.Except.ExceptT
+                   Servant.Server.Internal.ServerError.ServerError m)
+                a)
+       -> (Servant.Server.Auth.Token.Config.AuthConfig,
+           Data.Acid.Abstract.AcidState st)
+       -> m (Data.Either.Either
+               Servant.Server.Internal.ServerError.ServerError a)
+  {- Arity: 5, HasNoCafRefs,
+     Strictness: <C(C(S)),1*C1(C1(U))><L,C(U)><L,1*C1(U)><L,C(C1(U))><L,U>,
+     Inline: [2],
+     Unfolding: (\ @ st
+                   @ m :: * -> *
+                   (ww :: forall a b. m a -> (a -> m b) -> m b)
+                   (ww1 :: forall a. a -> m a)
+                   @ a
+                   (w :: Control.Monad.Trans.Reader.ReaderT
+                           (Servant.Server.Auth.Token.Config.AuthConfig,
+                            Data.Acid.Abstract.AcidState st)
+                           (Control.Monad.Trans.Except.ExceptT
+                              Servant.Server.Internal.ServerError.ServerError m)
+                           a)
+                   (w1 :: Servant.Server.Internal.ServerError.ServerError
+                          -> Control.Monad.Trans.Reader.ReaderT
+                               (Servant.Server.Auth.Token.Config.AuthConfig,
+                                Data.Acid.Abstract.AcidState st)
+                               (Control.Monad.Trans.Except.ExceptT
+                                  Servant.Server.Internal.ServerError.ServerError m)
+                               a)
+                   (w2 :: (Servant.Server.Auth.Token.Config.AuthConfig,
+                           Data.Acid.Abstract.AcidState st)) ->
+                 ww
+                   @ (Data.Either.Either
+                        Servant.Server.Internal.ServerError.ServerError a)
+                   @ (Data.Either.Either
+                        Servant.Server.Internal.ServerError.ServerError a)
+                   (w `cast`
+                    (Control.Monad.Trans.Reader.N:ReaderT[0]
+                         <*>_N
+                         <(Servant.Server.Auth.Token.Config.AuthConfig,
+                           Data.Acid.Abstract.AcidState st)>_R
+                         <Control.Monad.Trans.Except.ExceptT
+                            Servant.Server.Internal.ServerError.ServerError m>_R
+                         <a>_N)
+                      w2)
+                     `cast`
+                   (Control.Monad.Trans.Except.N:ExceptT[0]
+                        <Servant.Server.Internal.ServerError.ServerError>_N <m>_R <a>_N)
+                   (\ (a1 :: Data.Either.Either
+                               Servant.Server.Internal.ServerError.ServerError a) ->
+                    case a1 of wild {
+                      Data.Either.Left l
+                      -> ((w1 l)
+                            `cast`
+                          (Control.Monad.Trans.Reader.N:ReaderT[0]
+                               <*>_N
+                               <(Servant.Server.Auth.Token.Config.AuthConfig,
+                                 Data.Acid.Abstract.AcidState st)>_R
+                               <Control.Monad.Trans.Except.ExceptT
+                                  Servant.Server.Internal.ServerError.ServerError m>_R
+                               <a>_N)
+                            w2)
+                           `cast`
+                         (Control.Monad.Trans.Except.N:ExceptT[0]
+                              <Servant.Server.Internal.ServerError.ServerError>_N <m>_R <a>_N)
+                      Data.Either.Right r
+                      -> ww1
+                           @ (Data.Either.Either
+                                Servant.Server.Internal.ServerError.ServerError a)
+                           wild })) -}
+73959b31a39cf220308becb36dcf4a1f
+  type role AcidBackendT nominal representational nominal
+  newtype AcidBackendT st (m :: * -> *) a
+    = AcidBackendT {unAcidBackendT :: Control.Monad.Trans.Reader.ReaderT
+                                        (Servant.Server.Auth.Token.Config.AuthConfig,
+                                         Data.Acid.Abstract.AcidState st)
+                                        (Control.Monad.Trans.Except.ExceptT
+                                           Servant.Server.Internal.ServerError.ServerError m)
+                                        a}
+73959b31a39cf220308becb36dcf4a1f
+  axiom Servant.Server.Auth.Token.Acid.D:R:StMAcidBackendTa::
+      Control.Monad.Trans.Control.StM
+        (Servant.Server.Auth.Token.Acid.AcidBackendT st m) a
+        = Servant.Server.Auth.Token.Acid.StMAcidBackendT st m a
+8fb8255ee376b5c03695596a935b051a
+  type role StMAcidBackendT nominal nominal nominal
+  newtype StMAcidBackendT st (m :: * -> *) a
+    = StMAcidBackendT {unStMAcidBackendT :: Control.Monad.Trans.Control.StM
+                                              (Control.Monad.Trans.Reader.ReaderT
+                                                 (Servant.Server.Auth.Token.Config.AuthConfig,
+                                                  Data.Acid.Abstract.AcidState st)
+                                                 (Control.Monad.Trans.Except.ExceptT
+                                                    Servant.Server.Internal.ServerError.ServerError
+                                                    m))
+                                              a}
+636fd6d4b759e6a622e63da3987cf2e5
+  deriveAcidHasStorage ::
+    Language.Haskell.TH.Syntax.Name
+    -> Language.Haskell.TH.Lib.Internal.DecsQ
+  {- Arity: 2,
+     Strictness: <L,U><S(S(S(LC(C(S))LLL)L)LLLLLLLLLLLLLLLLLLLLLLLL),U(U(U(U(U(U,U),U,U,U,U,U),U,U,U,U),U),U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U)>,
+     Unfolding: InlineRule (0, True, True)
+                Servant.Server.Auth.Token.Acid.deriveAcidHasStorage1
+                  `cast`
+                (<Language.Haskell.TH.Syntax.Name>_R
+                 ->_R Sym (Language.Haskell.TH.Syntax.N:Q[0]
+                               <[Language.Haskell.TH.Syntax.Dec]>_N)) -}
+cb896fed17c5fe591a8e882fda50d784
+  deriveAcidHasStorage1 ::
+    Language.Haskell.TH.Syntax.Name
+    -> forall (m :: * -> *).
+       Language.Haskell.TH.Syntax.Quasi m =>
+       m [Language.Haskell.TH.Syntax.Dec]
+  {- Arity: 2,
+     Strictness: <L,U><S(S(S(LC(C(S))LLL)L)LLLLLLLLLLLLLLLLLLLLLLLL),U(U(U(U(U(U,U),U,U,U,U,U),U,U,U,U),U),U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U)> -}
+d7a1a144d7e6bc4f16784513fde482e2
+  runAcidBackendT ::
+    Servant.Server.Auth.Token.Config.AuthConfig
+    -> Data.Acid.Abstract.AcidState st
+    -> Servant.Server.Auth.Token.Acid.AcidBackendT st m a
+    -> m (Data.Either.Either
+            Servant.Server.Internal.ServerError.ServerError a)
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,U><L,U><C(S),1*C1(U)>,
+     Unfolding: InlineRule (0, True, True)
+                Servant.Server.Auth.Token.Acid.runAcidBackendT1
+                  `cast`
+                (forall (st :: <*>_N) (m :: <* -> *>_N) (a :: <*>_N).
+                 <Servant.Server.Auth.Token.Config.AuthConfig>_R
+                 ->_R <Data.Acid.Abstract.AcidState st>_R
+                 ->_R <Servant.Server.Auth.Token.Acid.AcidBackendT st m a>_R
+                 ->_R Control.Monad.Trans.Except.N:ExceptT[0]
+                          <Servant.Server.Internal.ServerError.ServerError>_N <m>_R <a>_N) -}
+eaebad82a42e92ee1d62be868718f474
+  runAcidBackendT1 ::
+    Servant.Server.Auth.Token.Config.AuthConfig
+    -> Data.Acid.Abstract.AcidState st
+    -> Servant.Server.Auth.Token.Acid.AcidBackendT st m a
+    -> Control.Monad.Trans.Except.ExceptT
+         Servant.Server.Internal.ServerError.ServerError m a
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,U><L,U><C(S),1*C1(U)>,
+     Unfolding: InlineRule (3, True, False)
+                (\ @ st
+                   @ m :: * -> *
+                   @ a
+                   (cfg :: Servant.Server.Auth.Token.Config.AuthConfig)
+                   (db :: Data.Acid.Abstract.AcidState st)
+                   (ma :: Servant.Server.Auth.Token.Acid.AcidBackendT st m a) ->
+                 ma
+                   `cast`
+                 (Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                      <st>_N <m>_R <a>_N ; Control.Monad.Trans.Reader.N:ReaderT[0]
+                                               <*>_N
+                                               <(Servant.Server.Auth.Token.Config.AuthConfig,
+                                                 Data.Acid.Abstract.AcidState st)>_R
+                                               <Control.Monad.Trans.Except.ExceptT
+                                                  Servant.Server.Internal.ServerError.ServerError
+                                                  m>_R
+                                               <a>_N)
+                   (cfg, db)) -}
+73959b31a39cf220308becb36dcf4a1f
+  unAcidBackendT ::
+    Servant.Server.Auth.Token.Acid.AcidBackendT st m a
+    -> Control.Monad.Trans.Reader.ReaderT
+         (Servant.Server.Auth.Token.Config.AuthConfig,
+          Data.Acid.Abstract.AcidState st)
+         (Control.Monad.Trans.Except.ExceptT
+            Servant.Server.Internal.ServerError.ServerError m)
+         a
+  RecSel Left Servant.Server.Auth.Token.Acid.AcidBackendT
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (0, True, True)
+                Servant.Server.Auth.Token.Acid.unAcidBackendT1
+                  `cast`
+                (forall (st :: <*>_N) (m :: <* -> *>_N) (a :: <*>_N).
+                 <Servant.Server.Auth.Token.Acid.AcidBackendT st m a>_R
+                 ->_R Servant.Server.Auth.Token.Acid.N:AcidBackendT[0]
+                          <st>_N <m>_R <a>_N) -}
+73959b31a39cf220308becb36dcf4a1f
+  unAcidBackendT1 ::
+    Servant.Server.Auth.Token.Acid.AcidBackendT st m a
+    -> Servant.Server.Auth.Token.Acid.AcidBackendT st m a
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ st
+                   @ m :: * -> *
+                   @ a
+                   (ds :: Servant.Server.Auth.Token.Acid.AcidBackendT st m a) ->
+                 ds) -}
+8fb8255ee376b5c03695596a935b051a
+  unStMAcidBackendT ::
+    Servant.Server.Auth.Token.Acid.StMAcidBackendT st m a
+    -> Control.Monad.Trans.Control.StM
+         (Control.Monad.Trans.Reader.ReaderT
+            (Servant.Server.Auth.Token.Config.AuthConfig,
+             Data.Acid.Abstract.AcidState st)
+            (Control.Monad.Trans.Except.ExceptT
+               Servant.Server.Internal.ServerError.ServerError m))
+         a
+  RecSel Left Servant.Server.Auth.Token.Acid.StMAcidBackendT
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (0, True, True)
+                Servant.Server.Auth.Token.Acid.unStMAcidBackendT1
+                  `cast`
+                (forall (st :: <*>_N) (m :: <* -> *>_N) (a :: <*>_N).
+                 <Servant.Server.Auth.Token.Acid.StMAcidBackendT st m a>_R
+                 ->_R Servant.Server.Auth.Token.Acid.N:StMAcidBackendT[0]
+                          <st>_N <m>_N <a>_N) -}
+8fb8255ee376b5c03695596a935b051a
+  unStMAcidBackendT1 ::
+    Servant.Server.Auth.Token.Acid.StMAcidBackendT st m a
+    -> Servant.Server.Auth.Token.Acid.StMAcidBackendT st m a
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ st
+                   @ m :: * -> *
+                   @ a
+                   (ds :: Servant.Server.Auth.Token.Acid.StMAcidBackendT st m a) ->
+                 ds) -}
+instance GHC.Base.Applicative [Servant.Server.Auth.Token.Acid.AcidBackendT]
+  = Servant.Server.Auth.Token.Acid.$fApplicativeAcidBackendT
+instance GHC.Base.Functor [Servant.Server.Auth.Token.Acid.AcidBackendT]
+  = Servant.Server.Auth.Token.Acid.$fFunctorAcidBackendT
+instance Servant.Server.Auth.Token.Config.HasAuthConfig [Servant.Server.Auth.Token.Acid.AcidBackendT]
+  = Servant.Server.Auth.Token.Acid.$fHasAuthConfigAcidBackendT
+instance GHC.Base.Monad [Servant.Server.Auth.Token.Acid.AcidBackendT]
+  = Servant.Server.Auth.Token.Acid.$fMonadAcidBackendT
+instance Control.Monad.Base.MonadBase [GHC.Types.IO,
+                                       Servant.Server.Auth.Token.Acid.AcidBackendT]
+  = Servant.Server.Auth.Token.Acid.$fMonadBaseAcidBackendT
+instance Control.Monad.Trans.Control.MonadBaseControl [GHC.Types.IO,
+                                                       Servant.Server.Auth.Token.Acid.AcidBackendT]
+  = Servant.Server.Auth.Token.Acid.$fMonadBaseControlIOAcidBackendT
+instance Control.Monad.Error.Class.MonadError [Servant.Server.Internal.ServerError.ServerError,
+                                               Servant.Server.Auth.Token.Acid.AcidBackendT]
+  = Servant.Server.Auth.Token.Acid.$fMonadErrorAcidBackendT
+instance Control.Monad.IO.Class.MonadIO [Servant.Server.Auth.Token.Acid.AcidBackendT]
+  = Servant.Server.Auth.Token.Acid.$fMonadIOAcidBackendT
+instance Control.Monad.Reader.Class.MonadReader [(,),
+                                                 Servant.Server.Auth.Token.Acid.AcidBackendT]
+  = Servant.Server.Auth.Token.Acid.$fMonadReaderAcidBackendT
+family instance Control.Monad.Trans.Control.StM [Servant.Server.Auth.Token.Acid.AcidBackendT],
+                                                [.]
+  = Servant.Server.Auth.Token.Acid.D:R:StMAcidBackendTa
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+
